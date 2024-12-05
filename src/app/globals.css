@@ -17,17 +17,27 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background: white;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link:after {
+  content: "";
+  height: 4px;
+  width: calc(100% + 10px);
+  position: absolute;
+  bottom: -5px;
+  background-color: black;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
