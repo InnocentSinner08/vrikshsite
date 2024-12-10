@@ -1,4 +1,12 @@
-import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+"use client";
+import {
+  CircleArrowUp,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Youtube,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -82,6 +90,18 @@ const Sitemap = () => {
             objectFit="cover"
           ></Image>
         </div>
+      </div>
+      <div
+        className="fixed bottom-2 right-2 "
+        onClick={() =>
+          scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+          })
+        }
+      >
+        <CircleArrowUp color="#30BD19" size={30}/>
       </div>
     </div>
   );
