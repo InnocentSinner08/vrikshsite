@@ -34,7 +34,7 @@ const Header = () => {
           7761981651
         </div>
       </div>
-      <div className="bg-[#30BD19] text-[white] min-w-[120px] h-full p-2 font-bold flex justify-center items-center">
+      <div className="hidden bg-green text-[white] sm:min-w-[120px] h-full p-2 font-bold sm:flex justify-center items-center">
         <Link href="/support-us" className="text-sm">
           SUPPORT US
         </Link>

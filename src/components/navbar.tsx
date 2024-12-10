@@ -1,52 +1,76 @@
-"use client";
+"use client"
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About Us" },
+    { href: "/team", label: "Our Team" },
+    { href: "/work", label: "Our Work" },
+    { href: "/partners", label: "Our Partners" },
+    { href: "/contribute", label: "Get Involved" },
+    { href: "/media", label: "Media" },
+    { href: "/contact", label: "Reach Us" },
+  ];
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <div className="w-full h-[10vh] flex px-3 justify-between items-center">
-      <div className="h-[80%] aspect-[88/79] relative">
-        <Image src="/vriksh-logo.png" alt="logo" fill={true}></Image>
+    <nav className="relative w-full bg-white text-black">
+      <div className="w-full h-[10vh] flex px-3 justify-between items-center">
+        <div className="h-[80%] aspect-[88/79] relative">
+          <Image src="/vriksh-logo.png" alt="logo" fill={true} />
+        </div>
+        <div className="hidden md:flex gap-6 justify-center items-center">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={
+                pathname === link.href ? "nav-link text-sm" : "text-sm"
+              }
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
+        <div className="md:hidden">
+          <button
+            onClick={toggleMenu}
+            className="text-black focus:outline-none"
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
-      <div className="flex gap-6 justify-center items-center">
-        <Link href="/" className={pathname == "/" ? "nav-link text-sm" : "text-sm"}>
-          Home
-        </Link>
-        <Link href="/about" className={pathname == "/about" ? "nav-link text-sm" : "text-sm"}>
-          About Us
-        </Link>
-        <Link href="/team" className={pathname == "/team" ? "nav-link text-sm" : "text-sm"}>
-          Our Team
-        </Link>
-        <Link href="/work" className={pathname == "/work" ? "nav-link text-sm" : "text-sm"}>
-          Our Work
-        </Link>
-        <Link
-          href="/partners"
-          className={pathname == "/partners" ? "nav-link text-sm" : "text-sm"}
-        >
-          Our Partners
-        </Link>
-        <Link
-          href="/contribute"
-          className={pathname == "/contribute" ? "nav-link text-sm" : "text-sm"}
-        >
-          Get Involved
-        </Link>
-        <Link href="/media" className={pathname == "/media" ? "nav-link text-sm" : "text-sm"}>
-          Media
-        </Link>
-        <Link
-          href="/contact"
-          className={pathname == "/contact" ? "nav-link text-sm" : "text-sm"}
-        >
-          Reach Us
-        </Link>
-      </div>
-    </div>
+      {isMenuOpen && (
+        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md z-50">
+          <div className="flex flex-col items-center py-4 space-y-4">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`${
+                  pathname === link.href ? "nav-link" : ""
+                } text-sm block`}
+                onClick={toggleMenu}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+    </nav>
   );
 };
 

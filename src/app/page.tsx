@@ -1,18 +1,17 @@
 import Founder from "@/components/founder";
-import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Impact from "@/components/impact";
-import Navbar from "@/components/navbar";
-import Image from "next/image";
+import Testimonial from "@/components/testimonial";
+import Vriksh from "@/components/vriksh";
 
 export default function Home() {
   return (
     <main>
-      <Header />
-      <Navbar />
       <Hero />
       <Founder />
       <Impact />
+      <Testimonial />
+      <Vriksh />
     </main>
   );
 }
