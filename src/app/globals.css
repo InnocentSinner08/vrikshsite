@@ -6,9 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --swiper-navigation-color: rgb(82, 220, 82);
-  --swiper-pagination-color: rgb(82, 220, 82);
-  --swiper-pagination-bullet-inactive-color: rgb(82, 220, 82);
+  --swiper-navigation-color: #30bd19;
+  --swiper-pagination-color: #30bd19;
+  --swiper-pagination-bullet-inactive-color: #30bd19;
 }
 
 @media (prefers-color-scheme: dark) {
