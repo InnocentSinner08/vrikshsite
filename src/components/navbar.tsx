@@ -15,9 +15,9 @@ const Navbar = () => {
     { href: "/team", label: "Our Team" },
     { href: "/work", label: "Our Work" },
     { href: "/partners", label: "Our Partners" },
-    { href: "/contribute", label: "Get Involved" },
+    { href: "/getinvolved", label: "Get Involved" },
     { href: "/media", label: "Media" },
-    { href: "/contact", label: "Reach Us" },
+    { href: "/reachus", label: "Reach Us" },
   ];
 
   const toggleMenu = () => {
