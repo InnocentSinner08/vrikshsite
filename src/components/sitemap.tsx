@@ -42,7 +42,6 @@ const Sitemap = () => {
         <div className="text-xs">Trustee</div>
         <div className="text-xs">Alumni</div>
         <div className="text-xs">Our Partners</div>
-        <div className="text-xs">Get Involved</div>
       </div>
       <div>
         <div className="text-[#F7E120]">MEDIA</div>
@@ -62,19 +61,19 @@ const Sitemap = () => {
           Adress: Manpur Patwatoli Gaya,<br></br>Bihar, India, 823003
         </div>
         <div className="flex gap-3 mt-3">
-          <Link href="https://www.facebook.com">
+          <Link href="https://www.instagram.com/vrikshbethechange">
             <Instagram size={20} className="text-white" />
           </Link>
-          <Link href="facebook.com">
+          <Link href="https://www.facebook.com/vrikshbethechange/">
             <Facebook size={20} className="text-white" />
           </Link>
-          <Link href="facebook.com">
+          <Link href="https://x.com/vrikshbdchange">
             <Twitter size={20} className="text-white" />
           </Link>
-          <Link href="facebook.com">
+          <Link href="https://www.youtube.com/@vrikshbethechange8690/featured">
             <Youtube size={20} className="text-white" />
           </Link>
-          <Link href="facebook.com">
+          <Link href="https://www.linkedin.com/company/vrikshbethechange/">
             <Linkedin size={20} className="text-white" />
           </Link>
         </div>

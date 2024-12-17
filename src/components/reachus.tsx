@@ -23,45 +23,62 @@ const ReachUsBody = () => {
                     <p className="text-center mb-6 text-gray-700">
                         For any grievance, suggestion kindly write to us
                     </p>
-                    <form className="space-y-4">
+                    <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
+                        <input
+                            type="hidden"
+                            name="access_key"
+                            value="dca4d71f-b045-48d6-814f-a9ca5d631779"
+                        />
+
                         {/* Name */}
                         <div>
                             <label className="block font-semibold mb-1">Name</label>
                             <input
                                 type="text"
+                                name="name" // Added name attribute
                                 className="w-full border p-2 rounded"
                                 placeholder="Enter your name"
+                                required
                             />
                         </div>
 
+                        {/* Phone and Email */}
                         <div className="grid grid-cols-2 gap-4">
                             <div>
                                 <label className="block font-semibold mb-1">Phone</label>
                                 <input
                                     type="text"
+                                    name="phone" // Added name attribute
                                     className="w-full border p-2 rounded"
                                     placeholder="Phone number"
+                                    required
                                 />
                             </div>
                             <div>
                                 <label className="block font-semibold mb-1">Email</label>
                                 <input
                                     type="email"
+                                    name="email" // Added name attribute
                                     className="w-full border p-2 rounded"
                                     placeholder="Email address"
+                                    required
                                 />
                             </div>
                         </div>
 
+                        {/* Message */}
                         <div>
                             <label className="block font-semibold mb-1">Message</label>
                             <textarea
                                 rows={4}
+                                name="message" // Added name attribute
                                 className="w-full border p-2 rounded"
                                 placeholder="Write your message here"
+                                required
                             />
                         </div>
 
+                        {/* Submit Button */}
                         <div className="text-center">
                             <button
                                 type="submit"
