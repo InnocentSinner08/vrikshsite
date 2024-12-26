@@ -30,6 +30,7 @@ const events = [
         imageUrl: "/images/events/homepage-4.jpg",
         content: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     },
+    
 ];
 
 const MediaBody = () => {

@@ -1,7 +1,9 @@
 import Link from "next/link";
-
+import Hero from "@/components/hero";
 const Media = () => {
   return (
+    <>
+    <Hero/>
     <main className="w-full flex flex-wrap justify-between items-center p-6 gap-8">
       <div className="p-4 flex flex-col gap-4">
         <Link
@@ -33,6 +35,7 @@ const Media = () => {
         </div>
       </div>
     </main>
+    </>
   );
 };
 

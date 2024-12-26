@@ -1,100 +1,117 @@
 "use client";
-import { useState } from "react";
+import { useRef } from "react";
 import Image from "next/image";
 
-type TActiveSection =
-  | "Our Story"
-  | "Vision"
-  | "Mission"
-  | "Why Change Needed?"
-  | "How We Work?"
-  | "Why Trust Us?";
-
 const Page = () => {
-  const [activeSection, setActiveSection] =
-    useState<TActiveSection>("Our Story");
+  // Create refs for each section
+  const ourStoryRef = useRef<HTMLDivElement>(null);
+  const visionRef = useRef<HTMLDivElement>(null);
+  const missionRef = useRef<HTMLDivElement>(null);
+  const whyChangeNeededRef = useRef<HTMLDivElement>(null);
+  const howWeWorkRef = useRef<HTMLDivElement>(null);
+  const whyTrustUsRef = useRef<HTMLDivElement>(null);
 
-  const sections = [
-    "Our Story",
-    "Vision",
-    "Mission",
-    "Why Change Needed?",
-    "How We Work?",
-    "Why Trust Us?",
-  ];
+  const handleScroll = (ref: React.RefObject<HTMLDivElement>) => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
-    <main className="flex flex-col justify-center items-center p-4">
-      <div className="relative w-[95%] h-[65vh]">
+    <main className="flex flex-col items-center">
+      {/* Hero Section */}
+      <div className="relative w-full h-[100vh]">
         <Image
           src="/hero.jpg"
-          alt="hero"
+          alt="Hero"
           fill
           objectFit="cover"
           objectPosition="center"
         />
       </div>
-      <div className="w-[95%] flex flex-wrap justify-evenly items-center gap-1 p-4 bg-[#D9D9D9] mt-4">
-        {sections.map((section) => (
-          <div
-            key={section}
-            className={`px-2 py-1 text-sm whitespace-nowrap cursor-pointer ${
-              activeSection === section ? "font-semibold" : ""
-            }`}
-            onClick={() => setActiveSection(section as TActiveSection)}
+
+      {/* Navigation Bar */}
+      <div className="w-full bg-gray-200 py-4 sticky top-0 z-10 shadow-md">
+        <div className="flex justify-evenly">
+          <button
+            className="text-gray-700 hover:text-black"
+            onClick={() => handleScroll(ourStoryRef)}
           >
-            {section}
-          </div>
-        ))}
+            Our Story
+          </button>
+          <button
+            className="text-gray-700 hover:text-black"
+            onClick={() => handleScroll(visionRef)}
+          >
+            Vision
+          </button>
+          <button
+            className="text-gray-700 hover:text-black"
+            onClick={() => handleScroll(missionRef)}
+          >
+            Mission
+          </button>
+          <button
+            className="text-gray-700 hover:text-black"
+            onClick={() => handleScroll(whyChangeNeededRef)}
+          >
+            Why Change Needed?
+          </button>
+          <button
+            className="text-gray-700 hover:text-black"
+            onClick={() => handleScroll(howWeWorkRef)}
+          >
+            How We Work?
+          </button>
+          <button
+            className="text-gray-700 hover:text-black"
+            onClick={() => handleScroll(whyTrustUsRef)}
+          >
+            Why Trust Us?
+          </button>
+        </div>
       </div>
-      {activeSection === "Our Story" && (
-        <div className="h-[45vh] w-[95%] my-4 flex items-center justify-center p-4">
-          Our Story component Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Beatae ipsa alias corrupti reprehenderit?
-          Consequuntur ea voluptatibus hic mollitia ex atque vitae totam minus
-          enim illo vel ducimus, iste provident amet?
-        </div>
-      )}
-      {activeSection === "Vision" && (
-        <div className="h-[45vh] w-[95%] my-4 flex items-center justify-center p-4">
-          Vision Component Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Corrupti quaerat voluptatum ipsam nam nostrum culpa eaque
-          pariatur laudantium molestiae consequuntur inventore eveniet ad
-          voluptatem ipsum, eius totam ex ullam provident!
-        </div>
-      )}
-      {activeSection === "Mission" && (
-        <div className="h-[45vh] w-[95%] my-4 flex items-center justify-center p-4">
-          Mission Component Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Corrupti quaerat voluptatum ipsam nam nostrum culpa eaque
-          pariatur laudantium molestiae consequuntur inventore eveniet ad
-          voluptatem ipsum, eius totam ex ullam provident!
-        </div>
-      )}
-      {activeSection === "How We Work?" && (
-        <div className="h-[45vh] w-[95%] my-4 flex items-center justify-center p-4">
-          How We Work Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Corrupti quaerat voluptatum ipsam nam nostrum culpa eaque pariatur
-          laudantium molestiae consequuntur inventore eveniet ad voluptatem
-          ipsum, eius totam ex ullam provident!
-        </div>
-      )}
-      {activeSection === "Why Change Needed?" && (
-        <div className="h-[45vh] w-[95%] my-4 flex items-center justify-center p-4">
-          Why Change Needed Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Corrupti quaerat voluptatum ipsam nam nostrum culpa eaque
-          pariatur laudantium molestiae consequuntur inventore eveniet ad
-          voluptatem ipsum, eius totam ex ullam provident!
-        </div>
-      )}
-      {activeSection === "Why Trust Us?" && (
-        <div className="h-[45vh] w-[95%] my-4 flex items-center justify-center p-4">
-          Why Trust Us? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Corrupti quaerat voluptatum ipsam nam nostrum culpa eaque pariatur
-          laudantium molestiae consequuntur inventore eveniet ad voluptatem
-          ipsum, eius totam ex ullam provident!
-        </div>
-      )}
+
+      {/* Section Contents */}
+      <section ref={ourStoryRef} className="w-full h-[100vh] bg-white p-8">
+        <h2 className="text-2xl font-bold text-center">Our Story</h2>
+        <p className="mt-4 text-center">
+          Our Story component content goes here...
+        </p>
+      </section>
+
+      <section ref={visionRef} className="w-full h-[100vh] bg-gray-100 p-8">
+        <h2 className="text-2xl font-bold text-center">Vision</h2>
+        <p className="mt-4 text-center">
+          Vision component content goes here...
+        </p>
+      </section>
+
+      <section ref={missionRef} className="w-full h-[100vh] bg-white p-8">
+        <h2 className="text-2xl font-bold text-center">Mission</h2>
+        <p className="mt-4 text-center">
+          Mission component content goes here...
+        </p>
+      </section>
+
+      <section ref={whyChangeNeededRef} className="w-full h-[100vh] bg-gray-100 p-8">
+        <h2 className="text-2xl font-bold text-center">Why Change Needed?</h2>
+        <p className="mt-4 text-center">
+          Why Change Needed content goes here...
+        </p>
+      </section>
+
+      <section ref={howWeWorkRef} className="w-full h-[100vh] bg-white p-8">
+        <h2 className="text-2xl font-bold text-center">How We Work?</h2>
+        <p className="mt-4 text-center">
+          How We Work content goes here...
+        </p>
+      </section>
+
+      <section ref={whyTrustUsRef} className="w-full h-[100vh] bg-gray-100 p-8">
+        <h2 className="text-2xl font-bold text-center">Why Trust Us?</h2>
+        <p className="mt-4 text-center">
+          Why Trust Us content goes here...
+        </p>
+      </section>
     </main>
   );
 };

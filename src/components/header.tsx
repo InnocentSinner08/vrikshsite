@@ -35,7 +35,7 @@ const Header = () => {
         </div>
       </div>
       <div className="hidden bg-green text-[white] sm:min-w-[120px] h-full p-2 font-bold sm:flex justify-center items-center">
-        <Link href="/support-us" className="text-sm">
+        <Link href="/donate-us" className="text-sm">
           SUPPORT US
         </Link>
       </div>

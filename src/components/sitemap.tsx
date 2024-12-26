@@ -56,7 +56,7 @@ const Sitemap = () => {
         <div className="text-[#F7E120]">CONTACT US:</div>
         <div className="text-xs">Mobile Number: +91-7761981651</div>
         <div className="text-xs">Phone Number: +91-9135209266</div>
-        <div className="text-xs">Email ID: info@vrikshbethechange.com</div>
+        <div className="text-xs">Email ID: info@vrikshbethechange.org</div>
         <div className="text-xs">
           Adress: Manpur Patwatoli Gaya,<br></br>Bihar, India, 823003
         </div>
