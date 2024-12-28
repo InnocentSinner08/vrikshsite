@@ -21,6 +21,7 @@ const Testimonial = () => {
         tempora praesentium rem exercitationem nemo doloremque quia, nostrum
         itaque velit! Ipsum, nulla!`,
     },
+    
   ];
 
   return (

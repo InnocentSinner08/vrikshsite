@@ -13,73 +13,73 @@ const Events = () => {
           2025
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2024"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2024
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2023"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2023
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2022"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2022
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2021"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2021
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2020"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2020
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2019"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2019
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2018"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2018
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2017"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2017
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2016"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2016
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2015"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2015
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2014"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2014
         </Link>
         <Link
-          href="/media/events/2025"
+          href="/media/events/2013"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
           2013

@@ -1,4 +1,4 @@
-export const events_25 = [
+export const events_19 = [
   {
     name: "XYZ Event",
     image: "/images/events/homepage-1.jpg",
