@@ -1,5 +1,6 @@
 import { Instagram } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const MediaEvent = ({
   name,
@@ -15,15 +16,20 @@ const MediaEvent = ({
   instagram: string;
 }) => {
   return (
-    <div className="flex flex-wrap m-4 bg-[#D9D9D9] p-4">
+    <div className="flex flex-wrap-reverse bg-[#D9D9D9] p-4">
       {/* Text Section */}
       <div className="max-w-[350px] flex flex-col justify-between gap-4">
         <div className="font-bold text-lg">{name}</div>
         <div>{content}</div>
-        <div className="text-sm font-semibold text-gray-500 mt-4">{date}</div>
+        <div className="flex justify-between items-center p-3">
+          <div className="text-sm font-semibold text-gray-500">{date}</div>
+          <Link href={instagram}>
+            <Instagram></Instagram>
+          </Link>
+        </div>
       </div>
       {/* Image Section */}
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center justify-center">
         <div className="aspect-square w-[300px] relative mb-2">
           <Image src={image} alt={name} fill objectFit="cover"></Image>
         </div>
