@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="w-full h-[calc(100vh-12vh)] relative">
           <Image src="/images/homepage/1_top.jpg" alt="hero" fill objectFit="cover"></Image>
           <div className="absolute bg-[#0000007a] w-full left-0 bottom-0 flex justify-center items-center text-md px-10 text-white text-center py-8">
-            &quot;Celebrating Excellence and Dedication at the 'Samman Samaroh'!
+            &quot;Celebrating Excellence and Dedication at the &apos;Samman Samaroh&apos;!
             Honoring the hard work and commitment of these changemakers, who are stepping up for free and fair education for all. Together, we continue to inspire and build a brighter future!
             &quot;
           </div>
