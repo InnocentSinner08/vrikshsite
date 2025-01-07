@@ -6,7 +6,7 @@ const Founder = () => {
     <div className="flex flex-col justify-center items-center gap-2 md:p-12 p-4 pt-8">
       <div className="flex items-center justify-center md:justify-evenly p-2 w-full flex-wrap">
         <div className="w-[200px] h-[200px] relative rounded-full"><Image
-          src="/founder.jpeg"
+          src="/cp bhaiya.png"
           alt="founder"
           fill
           objectFit="cover"
