@@ -83,7 +83,7 @@ const Sitemap = () => {
         <div className="text-xs">Donate Us Via UPI</div>
         <div className="relative aspect-square w-[100px]">
           <Image
-            src="/QR.png"
+            src="/images/homepage/QR.png"
             alt="founder"
             fill={true}
             objectFit="cover"

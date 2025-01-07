@@ -54,7 +54,7 @@ const TestimonialCard = ({
 const TestimonialSection = () => {
   const testimonials = [
     {
-      image: "/kashish kumari.jpg",
+      image: "/images/homepage/kashish kumari.jpg",
       title: "Kashish Kumari",
       content:
         "Hello everyone! I am Kashish Kumari, a member of VRIKSH BE THE CHANGE. VRIKSH is providing a great opportunity to poor children by giving them free and fair education to study forward. ",
@@ -63,7 +63,7 @@ const TestimonialSection = () => {
       link: "#",
     },
     {
-      image: "/rakhi kumari.jpg",
+      image: "/images/homepage/rakhi kumari.jpg",
       title: "Rakhi Kumari",
       content:
         "I am Rakhi. For me Vriksh is a mentor, a friend and like a family  and has supported and guided me through my study and problems, especially during  my JEE preparations which lead me to my current situation.",
@@ -72,7 +72,7 @@ const TestimonialSection = () => {
       link: "#",
     },
     {
-      image: "/ankush kumar.jpg",
+      image: "/images/homepage/ankush kumar.jpg",
       title: "Anksush Kumar",
       content:
         "I ANKUSH KUMAR CURRENTLY STUDYING IN IIT BOMBAY (B.Tech, First Year ,Branch-MEMS) . I belong to a poor family. When I decided to crack IIT JEE Examination, I have no money for preparation for JEE . ",
@@ -81,7 +81,7 @@ const TestimonialSection = () => {
       link: "#",
     },
     {
-      image: "/nitish kumar.jpg",
+      image: "/images/homepage/nitish kumar.jpg",
       title: "Nitish Kumar",
       content:
         "Hey I am Nitish Kumar. Vriksh helped me when I needed financial and academic support, the Vriksh team helped me in every possible way. ",
@@ -90,7 +90,7 @@ const TestimonialSection = () => {
       link: "#",
     },
     {
-      image: "/suraj kumar.jpg",
+      image: "/images/homepage/suraj kumar.jpg",
       title: "Suraj Kumar",
       content: "Hello everyone! I am Suraj Kumar, a member of VRIKSH BE THE CHANGE. VRIKSH has provided me financial and moral support in achieving my goals. It was a great experience of volunteering here in different activities.",
       extraContent:

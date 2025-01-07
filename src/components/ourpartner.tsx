@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const partners = [
     {
@@ -8,7 +9,9 @@ const partners = [
         name: "Partner 1",
         imageUrl: "/partner1.jpg",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum mauris ut erat volutpat, nec tincidunt metus tempus. Integer in turpis velit.",
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             vamus interdum mauris ut erat volutpat, nec tincidunt metus tempus. 
+             Integer in turpis velit.`,
     },
     {
         id: 2,
@@ -54,10 +57,12 @@ const Partners = () => {
                     >
                         {/* Circle Image */}
                         <div className="w-24 h-24 rounded-full bg-gray-300 overflow-hidden">
-                            <img
+                            <Image
                                 src={partner.imageUrl}
                                 alt={partner.name}
-                                className="w-full h-full object-cover"
+                                width={96}
+                                height={96}
+                                className="object-cover"
                             />
                         </div>
 

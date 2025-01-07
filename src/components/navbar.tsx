@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav className="relative w-full bg-white text-black">
       <div className="w-full h-[10vh] flex px-3 justify-between items-center">
         <div className="h-[80%] aspect-[88/79] relative">
-          <Image src="/vriksh-logo.png" alt="logo" fill={true} />
+          <Image src="/images/homepage/vriksh-logo.png" alt="logo" fill={true} />
         </div>
         <div className="hidden md:flex gap-6 justify-center items-center">
           {navLinks.map((link) => (

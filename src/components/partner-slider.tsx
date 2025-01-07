@@ -6,10 +6,10 @@ import "swiper/css";
 
 const OurPartners = () => {
     const partners = [
-        { name: "IMS", src: "/jeevika logo.png" },
-        { name: "Foodies Hub", src: "/NeetJee Logo.png" },
-        { name: "SBI", src: "/NSS Logo.png" },
-        { name: "Indian Oil", src: "/SBI logo.png" },
+        { name: "IMS", src: "/images/homepage/jeevika logo.png" },
+        { name: "Foodies Hub", src: "/images/homepage/NeetJee Logo.png" },
+        { name: "SBI", src: "/images/homepage/NSS Logo.png" },
+        { name: "Indian Oil", src: "/images/homepage/SBI logo.png" },
         // { name: "Pizza Hut", src: "/" },
     ];
 
