@@ -4,31 +4,31 @@ import { useState } from "react";
 const events = [
     {
         id: 1,
-        title: "Event-1",
+        title: "Vihangam Yoga Vaidik Hawan",
         subtitle: "Caption",
-        imageUrl: "/images/events/homepage-1.jpg",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum mauris ut erat volutpat, nec tincidunt metus tempus.",
+        imageUrl: "/images/events/Home Page Event - 1.jpg",
+        content: "The VRIKSH BE THE CHANGE organized a Vihangam Yoga Vedic Havan for students in Vriksh Digital Class. This initiative aids in managing stress, enhancing concentration, and fostering inner peace. It also promotes spiritual growth and mental clarity, crucial for students to remain focused on their studies. It also encourages holistic development and instills a sense of discipline and mindfulness in students.",
     },
     {
         id: 2,
-        title: "Event-2",
+        title: "Bihar Times Conclave 2024",
         subtitle: "Caption",
-        imageUrl: "/images/events/homepage-2.jpg",
-        content: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+        imageUrl: "/images/events/Home Page Event - 2.jpg",
+        content: "Mr. Chandrakant Pateshwari, Founder of Vriksh Pathshala and part of the trust Vriksh Be The Change, was invited to the Bihar Times Conclave. He shared insights on nurturing young minds and preserving the legacy of Patwatoli, the Village of IITians in Gaya. He was honored with the Change Agent of Bihar award, recognizing the significant impact of Vriksh's efforts in the community, fostering academic excellence and holistic development.",
     },
     {
         id: 3,
-        title: "Event-3",
+        title: "Celebrating Children's Day",
         subtitle: "Caption",
-        imageUrl: "/images/events/homepage-3.jpg",
-        content: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.",
+        imageUrl: "/images/events/Home Page Event - 3.jpg",
+        content: "The VRIKSH BE THE CHANGE celebrated Children's Day with immense joy, laughter, and a plethora of fun activities. PATHSHALA students enjoyed exciting games, creating cherished memories. Prizes were awarded to runners and winners, boosting their activeness and relieving stress and anxiety. The games refreshed their minds, promoting physical fitness, teamwork, and cognitive skills development. This celebration fostered a sense of community and holistic development among the students.",
     },
     {
         id: 4,
-        title: "Event-4",
+        title: "Celebrating the sparkle of Diwali",
         subtitle: "Caption",
-        imageUrl: "/images/events/homepage-4.jpg",
-        content: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        imageUrl: "/images/events/Home Page Event - 4.jpg",
+        content: "Celebrating the sparkle of Diwali with the guiding lights who brighten our path every day! Thank you, Sunil Sir, Kuldip Sir, and Yugesh Bhaiya, for your unwavering support, wisdom, and inspiration. Your teachings enlighten our minds and lift our spirits. As we revel in the joy and light of Diwali, we honor the knowledge and joy you bring into our lives. Here's to a festival as radiant as your guidance, fostering growth, unity, and a fresh outlook in our journey.",
     },
     
 ];
