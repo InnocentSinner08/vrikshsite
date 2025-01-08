@@ -6,7 +6,7 @@ const Impact = () => {
         <div className="flex flex-col justify-center items-center gap-0 p-2">
           <div className="font-extrabold text-4xl text-green">990+</div>
           <div className="text-green text-xl"></div>
-          <div className="text-xs">No. of Students Helped</div>
+          <div className="text-xs text-center">No. of Students Helped</div>
         </div>
         <div className="flex flex-col justify-center items-center gap-0 p-2">
           <div className="font-extrabold text-4xl text-green">10K+</div>
@@ -15,14 +15,14 @@ const Impact = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center gap-0 p-2">
-          <div className="font-extrabold text-4xl text-green">30000</div>
+          <div className="font-extrabold text-4xl text-green">30K+</div>
           <div className="text-green text-xl"></div>
-          <div className="text-xs">masks donated by vriksh during corona</div>
+          <div className="text-xs text-center">Masks donated by vriksh during COVID-19</div>
         </div>
         <div className="flex flex-col justify-center items-center gap-0 p-2">
           <div className="font-extrabold text-4xl text-green">100+</div>
           <div className="text-green text-xl"></div>
-          <div className="text-xs">students studying in IIT/NIT.</div>
+          <div className="text-xs text-center">Students studying in IIT/NIT.</div>
         </div>
       </div>
     </div>
