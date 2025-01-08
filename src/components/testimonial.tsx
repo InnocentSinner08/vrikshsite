@@ -44,7 +44,7 @@ const TestimonialCard = ({
           onClick={toggleExpand}
           className="text-green-600 font-semibold hover:underline self-start"
         >
-          {isExpanded ? "show less" : "know more >"}
+          {isExpanded ? "Show less " : "Know more ..."}
         </button>
       </div>
     </div>
@@ -57,9 +57,9 @@ const TestimonialSection = () => {
       image: "/images/homepage/kashish kumari.jpg",
       title: "Kashish Kumari",
       content:
-        "Hello everyone! I am Kashish Kumari, a member of VRIKSH BE THE CHANGE. VRIKSH is providing a great opportunity to poor children by giving them free and fair education to study forward. ",
+        "Hello everyone! I am Kashish Kumari, a member of VRIKSH BE THE CHANGE. VRIKSH is providing a great opportunity to poor children by giving them free and fair education to study forward.",
       extraContent:
-        "This additional text provides more detailed information about the 'Tayyari Kal Ki' campaign.",
+        "When I was about 8 years old, my father passed away. I was helpless, at that time VRIKSH raised a hand to support me emotionally and financially also. With me, it also helped my siblings. Today, I became a JEE Aspirant only because of their help and support. I am preparing for IIT-JEE from here not only during the day but also at night also. VRIKSH is aiming to support many children like me who are financially weak but want to achieve their dreams.",
       link: "#",
     },
     {
@@ -68,16 +68,16 @@ const TestimonialSection = () => {
       content:
         "I am Rakhi. For me Vriksh is a mentor, a friend and like a family  and has supported and guided me through my study and problems, especially during  my JEE preparations which lead me to my current situation.",
       extraContent:
-        "This extra content explains the objectives of 'Health Cannot Wait' in more depth.",
+        "With the selfless help and support from  Vriksh, currently I am doing B. Tech in Computer Engineering from one of the best NITs, NIT Kurukshetra. I am currently in my pre-final year of my B. Tech course. And till date, Vriksh is always there whenever I have some issue. I've been a member of the Vriksh family for a long time and I always feel blessed to have met such good people in my life. Vriksh has been a great support to me morally as well as financially. I want to say my heartfelt thanks and appreciation to The Vriksh Be The Change.",
       link: "#",
     },
     {
       image: "/images/homepage/ankush kumar.jpg",
-      title: "Anksush Kumar",
+      title: "Ankush Kumar",
       content:
-        "I ANKUSH KUMAR CURRENTLY STUDYING IN IIT BOMBAY (B.Tech, First Year ,Branch-MEMS) . I belong to a poor family. When I decided to crack IIT JEE Examination, I have no money for preparation for JEE . ",
+        "I ANKUSH KUMAR CURRENTLY STUDYING IN IIT BOMBAY (B.Tech, First Year, Branch-MEMS). I belong to a poor family. When I decided to crack IIT JEE Examination, I have no money for preparation for JEE. ",
       extraContent:
-        "Additional details about how 'Shiksha Na Ruke' supports education and empowers children.",
+        "Then VRIKSH BE THE CHANGE came forward to support me and provide me free coaching for JEE and also provide regular guidance about HOW TO PREPARE FOR JEE ? and WHAT TO DO FOR THIS? Finally I got selected in the JEE ADVANCED Examination. I am very thankful to VRIKSH BE THE CHANGE.",
       link: "#",
     },
     {
@@ -86,7 +86,7 @@ const TestimonialSection = () => {
       content:
         "Hey I am Nitish Kumar. Vriksh helped me when I needed financial and academic support, the Vriksh team helped me in every possible way. ",
       extraContent:
-        "Further explanation of how 'She Can Fly' benefits girl children across various areas.",
+        "They provided me with resources, guidance, and motivation, which helped me reach where I am today—studying at IIT BHU. Without their support, this wouldn’t have been possible, and I will always be grateful to them.",
       link: "#",
     },
     {
@@ -94,7 +94,7 @@ const TestimonialSection = () => {
       title: "Suraj Kumar",
       content: "Hello everyone! I am Suraj Kumar, a member of VRIKSH BE THE CHANGE. VRIKSH has provided me financial and moral support in achieving my goals. It was a great experience of volunteering here in different activities.",
       extraContent:
-        "This placeholder represents extra content for the fifth campaign.",
+        "I have learnt a lot of new things at every point during that time. Also I have learnt Live Living Lessons from CP Bhaiya which helps in enhancing my career. Now I am studying at IIEST Shibpur.",
       link: "#",
     },
   ];

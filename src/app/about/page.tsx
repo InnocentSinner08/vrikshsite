@@ -20,7 +20,7 @@ const Page = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[100vh]">
         <Image
-          src="/hero.jpg"
+          src="/images/homepage/hero.jpg"
           alt="Hero"
           fill
           objectFit="cover"
