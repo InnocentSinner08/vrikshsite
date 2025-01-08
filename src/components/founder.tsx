@@ -21,7 +21,7 @@ const Founder = () => {
             <br></br> <br></br>Pathshala focuses on academic excellence, equipping young minds with the knowledge and skills to overcome challenges and achieve their potential. Sanskarshala, on the other hand, emphasizes values, culture, and life skills, fostering holistic development to shape responsible and compassionate individuals. Together, these initiatives embody our mission of transforming lives and empowering communities.
             <br></br><br></br> Every child deserves the opportunity to learn, grow, and thrive. Through our collective efforts, we aim to create an inclusive environment where knowledge becomes a stepping stone to a brighter future. Together, we strive to empower individuals and build a society where education is a right, not a privilege.
             <br></br> <br></br>I extend my heartfelt gratitude to our supporters, volunteers, partners and our lovable students who share our vision. Your dedication fuels our mission and inspires us to reach greater heights. Let us continue to plant the seeds of change and nurture a world filled with hope, opportunity, and equality.
-            <br></br> <br></br><span className="font-bold italic">"Education is incomplete without values; knowledge must be paired with wisdom and character."</span>
+            <br></br> <br></br><span className="font-bold italic">&quot;Education is incomplete without values; knowledge must be paired with wisdom and character.&quot;</span>
             <br></br> <br></br>Thank you for being part of this transformative journey.<br></br>
 
             Warm Regards,<br></br>
