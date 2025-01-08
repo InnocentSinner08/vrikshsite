@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const partners = [
+
   {
     id: 1,
     name: "JEEVIKA",
@@ -47,6 +49,38 @@ const partners = [
     link: "https://www.conceptnsolution.in",
     description: `Concept N Solution is a vital collaborator in our NEET/JEE preparation, providing invaluable support with test papers and detailed solutions. This Gurugram-based institute helps Vriksh students grasp complex concepts and identify weak areas in their syllabus. Their comprehensive modules cover the entire syllabus, ensuring thorough preparation. The institute's practice papers, solution explanations, and strategic approach significantly boost confidence and competence. With expert guidance from experienced faculty, students gain insights and tips crucial for excelling in competitive exams. Partnering with Concept N Solution greatly enhances Vriksh students' chances of success in NEET/JEE exams.<br /><br />`,
   },
+
+    {
+        id: 1,
+        name: "Partner 1",
+        imageUrl: "/partner1.jpg",
+        description:
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             vamus interdum mauris ut erat volutpat, nec tincidunt metus tempus. 
+             Integer in turpis velit.`,
+    },
+    {
+        id: 2,
+        name: "Partner 2",
+        imageUrl: "/partner2.jpg",
+        description:
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+    },
+    {
+        id: 3,
+        name: "Partner 3",
+        imageUrl: "/partner3.jpg",
+        description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.",
+    },
+    {
+        id: 4,
+        name: "Partner 3",
+        imageUrl: "/partner3.jpg",
+        description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.",  
+    }
+
 ];
 
 const Partners = () => {
@@ -59,6 +93,7 @@ const Partners = () => {
   return (
     <section className="max-w-6xl mx-auto py-10 px-4">
       <h1 className="text-4xl font-bold text-center mb-10">Our Partners</h1>
+
 
       <div className="flex flex-col gap-8">
         {partners.map((partner, index) => (
@@ -86,6 +121,26 @@ const Partners = () => {
                 />
               </div>
             )}
+
+            <div className="flex flex-col gap-8">
+                {partners.map((partner, index) => (
+                    <div
+                        key={partner.id}
+                        className={`flex items-center gap-5 border-b border-gray-300 pb-4 ${
+                            index % 2 === 0 ? "flex-row" : "flex-row-reverse"
+                        }`}
+                    >
+                        {/* Circle Image */}
+                        <div className="w-24 h-24 rounded-full bg-gray-300 overflow-hidden">
+                            <Image
+                                src={partner.imageUrl}
+                                alt={partner.name}
+                                width={96}
+                                height={96}
+                                className="object-cover"
+                            />
+                        </div>
+
 
             {/* Content */}
             <div className="flex-1">
