@@ -79,7 +79,7 @@ const Page = () => {
         <p className="mt-4 text-center max-w-4xl">
           Patwatoli, a locality in the Gaya district of Bihar, is remarkable for
           two things: its skilled weavers and its consistent production of
-          IITians. Known as the "Village of IITians," Patwatoli sees about
+          IITians. Known as the &quot;Village of IITians,&quot; Patwatoli sees about
           15-20 of its students clear the highly competitive JEE Advanced
           examination every year. This unique achievement is even more
           impressive considering the challenges faced by the local community.
