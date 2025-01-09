@@ -48,6 +48,7 @@ const TestimonialCarousel = () => {
               open={openIdx == idx + 1 ? true : false}
               setOpenIdx={setOpenIdx}
               idx={idx + 1}
+              key={idx}
             />
           );
         })}
