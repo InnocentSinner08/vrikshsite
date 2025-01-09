@@ -6,6 +6,8 @@ import Vriksh from "@/components/vriksh";
 import Partners from "@/components/partner-slider";
 import RecentEvents from "@/components/recent-events";
 import TestimonialSection from "@/components/testimonial";
+import NewTestimonial from "@/components/newtestimonial";
+import TestimonialCarousel from "@/components/testimonialCarousel";
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <Impact />
       <Videoslider />
       <TestimonialSection />
+      {/* <TestimonialCarousel/> */}
       <RecentEvents />
       <Partners />
 

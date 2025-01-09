@@ -45,3 +45,32 @@ body {
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
+.shift:hover {
+  transform: translate(10px, -10px);
+  box-shadow: rgba(48, 189, 25, 0.3) -5px 5px, rgba(48, 189, 25, 0.2) -10px 10px,
+    rgba(48, 189, 25, 0.1) -15px 15px, rgba(48, 189, 25, 0.05) -20px 20px;
+  transition: all 150ms ease-in-out;
+}
+
+/* .swiper-pagination {
+  margin-top: 20px !important;
+  position: relative !important;
+} */
+
+/* .myswiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+} */
+
+/* .mySwiper {
+  padding: 20px 300px !important;
+} */
+
+/* .swiper-wrapper {
+  align-items: center;
+  justify-content: center;
+} */
