@@ -16,8 +16,8 @@ export default function Home() {
       <Founder />
       <Impact />
       <Videoslider />
-      <TestimonialSection />
-      {/* <TestimonialCarousel/> */}
+      {/* <TestimonialSection /> */}
+      <TestimonialCarousel/>
       <RecentEvents />
       <Partners />
 

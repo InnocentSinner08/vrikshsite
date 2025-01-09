@@ -1,11 +1,6 @@
 "use client";
 import { useState } from "react";
 import NewTestimonial from "./newtestimonial";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 const TestimonialCarousel = () => {
   const [openIdx, setOpenIdx] = useState(0);
@@ -38,57 +33,25 @@ const TestimonialCarousel = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem similique nulla eaque ipsa temporibus aliquid deleniti placeat, rerum molestiae magni minima neque corrupti ea voluptas iure blanditiis expedita ex?",
       image: "/images/homepage/suraj kumar.jpg",
     },
-    {
-      name: "Suraj Kumar",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem similique nulla eaque ipsa temporibus aliquid deleniti placeat, rerum molestiae magni minima neque corrupti ea voluptas iure blanditiis expedita ex?",
-      expandedText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem similique nulla eaque ipsa temporibus aliquid deleniti placeat, rerum molestiae magni minima neque corrupti ea voluptas iure blanditiis expedita ex?",
-      image: "/images/homepage/suraj kumar.jpg",
-    },
-    {
-      name: "Suraj Kumar",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem similique nulla eaque ipsa temporibus aliquid deleniti placeat, rerum molestiae magni minima neque corrupti ea voluptas iure blanditiis expedita ex?",
-      expandedText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem similique nulla eaque ipsa temporibus aliquid deleniti placeat, rerum molestiae magni minima neque corrupti ea voluptas iure blanditiis expedita ex?",
-      image: "/images/homepage/suraj kumar.jpg",
-    },
   ];
   return (
-    <div className="flex justify-center items-center">
-      <Swiper
-        slidesPerView={3}
-        grid={{
-          rows: 2,
-        }}
-        spaceBetween={30}
-        loop={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        autoplay={{
-          delay: 2000,
-          disableOnInteraction: true,
-        }}
-        modules={[Pagination, Navigation, Autoplay]}
-        className="mySwiper"
-      >
+    <div className="bg-black bg-opacity-10 px-4 py-8 flex flex-col items-center justify-center gap-6 min-h-[100vh]">
+      <div className="text-3xl font-bold text-center">TESTIMONIALS</div>
+      <div className="flex justify-center items-start gap-6 px-2 flex-wrap">
         {data.map((info, idx) => {
           return (
-            <SwiperSlide>
-              <NewTestimonial
-                name={info.name}
-                text={info.text}
-                expandedText={info.expandedText}
-                image={info.image}
-                open={openIdx == idx + 1 ? true : false}
-                setOpenIdx={setOpenIdx}
-                idx={idx + 1}
-              />
-            </SwiperSlide>
+            <NewTestimonial
+              name={info.name}
+              text={info.text}
+              expandedText={info.expandedText}
+              image={info.image}
+              open={openIdx == idx + 1 ? true : false}
+              setOpenIdx={setOpenIdx}
+              idx={idx + 1}
+            />
           );
         })}
-      </Swiper>
+      </div>
     </div>
   );
 };

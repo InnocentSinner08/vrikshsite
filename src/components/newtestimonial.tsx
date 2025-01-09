@@ -1,6 +1,9 @@
 "use client";
+import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import { Dispatch, SetStateAction } from "react";
+
+const bebas = Bebas_Neue({ subsets: ["latin"], weight: "400" });
 
 const NewTestimonial = ({
   image,
@@ -19,21 +22,25 @@ const NewTestimonial = ({
   setOpenIdx: Dispatch<SetStateAction<number>>;
   idx: number;
 }) => {
+  const [firstName, lastName] = name.split(" ");
   return (
-    <div className="shift p-1 rounded-xl max-w-[350px]">
-      <div className="relative">
+    <div className="shift p-2 rounded-xl max-w-[300px] border-black border">
+      <div className="relative w-full aspect-[7/8] rounded-xl">
         <Image
           src={image}
           alt="testimonial"
-          width={350}
-          height={400}
-          className="rounded-xl"
+          fill
+          className="rounded-xl object-cover"
         ></Image>
-        <div className="absolute bottom-2 left-4 text-white font-bold text-2xl uppercase">
-          {name}
+        <div
+          className={`absolute bottom-2 left-4 text-white font-bold text-3xl uppercase ${bebas.className}`}
+        >
+          {firstName}
+          <br></br>
+          {lastName}
         </div>
       </div>
-      <div className="max-w-[350px] px-2">
+      <div className="max-w-[300px] px-2">
         <div className="text-justify mt-2">{text}</div>
         {open && <div className="text-justify">{expandedText}</div>}
         <div
