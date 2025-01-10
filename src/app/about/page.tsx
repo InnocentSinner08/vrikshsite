@@ -3,7 +3,8 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const Page = () => {
-  // Create refs for each section
+  const NAVBAR_OFFSET = 60;
+
   const ourStoryRef = useRef<HTMLDivElement>(null);
   const visionRef = useRef<HTMLDivElement>(null);
   const missionRef = useRef<HTMLDivElement>(null);
@@ -12,7 +13,15 @@ const Page = () => {
   const whyTrustUsRef = useRef<HTMLDivElement>(null);
 
   const handleScroll = (ref: React.RefObject<HTMLDivElement>) => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
+    if (ref.current) {
+      const elementPosition = ref.current.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - NAVBAR_OFFSET;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
   };
 
   return (

@@ -24,8 +24,8 @@ const NewTestimonial = ({
 }) => {
   const [firstName, lastName] = name.split(" ");
   return (
-    <div className="shift p-2 rounded-xl max-w-[300px] border-black border min-h-full">
-      <div className="relative w-full aspect-[7/8] rounded-xl image-container">
+    <div className="shift p-2 rounded-xl max-w-[300px] border-black border flex flex-col flex-grow h-full min-h-[600px]">
+      <div className="relative w-full aspect-[7/8] rounded-xl">
         <Image
           src={image}
           alt="testimonial"
@@ -40,8 +40,8 @@ const NewTestimonial = ({
           {lastName}
         </div>
       </div>
-      <div className="max-w-[300px] px-2">
-        <div className="text-justify mt-2">{text}</div>
+      <div className="max-w-[300px] px-2 flex-grow flex flex-col">
+        <div className="text-justify mt-2 flex-grow">{text}</div>
         {open && <div className="text-justify">{expandedText}</div>}
         <div
           className="font-semibold cursor-pointer mt-3 text-right"
