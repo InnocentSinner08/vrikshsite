@@ -25,7 +25,7 @@ const NewTestimonial = ({
   const [firstName, lastName] = name.split(" ");
   return (
     <div className="shift p-2 rounded-xl max-w-[300px] border-black border flex flex-col flex-grow h-full min-h-[600px]">
-      <div className="relative w-full aspect-[7/8] rounded-xl">
+      <div className="relative w-full aspect-[7/8] rounded-xl image-container">
         <Image
           src={image}
           alt="testimonial"

@@ -85,7 +85,7 @@ const Page = () => {
         className="w-full min-h-[50vh] bg-white p-8 flex flex-col items-center"
       >
         <h2 className="text-2xl font-bold text-center">Our Story</h2>
-        <p className="mt-4 text-center max-w-4xl">
+        <p className="mt-4 max-w-4xl text-justify">
           Patwatoli, a locality in the Gaya district of Bihar, is remarkable for
           two things: its skilled weavers and its consistent production of
           IITians. Known as the &quot;Village of IITians,&quot; Patwatoli sees about
