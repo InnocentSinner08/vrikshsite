@@ -1,6 +1,8 @@
+"use client";
 import { Instagram } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 const MediaEvent = ({
   name,
@@ -15,12 +17,27 @@ const MediaEvent = ({
   date: string;
   instagram: string;
 }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const trimmedContent = content.slice(0, 200) + "...";
+
   return (
     <div className="flex flex-wrap-reverse bg-[#D9D9D9] p-4">
       {/* Text Section */}
-      <div className="max-w-[350px] flex flex-col justify-between gap-4">
+      <div className="max-w-[350px] flex flex-col justify-between gap-4 pr-4">
         <div className="font-bold text-lg">{name}</div>
-        <div>{content}</div>
+        <div className="text-justify">
+          {isExpanded ? (
+            <div dangerouslySetInnerHTML={{ __html: content }} />
+          ) : (<div> {trimmedContent} </div> 
+
+          )}
+          <div
+            className="font-semibold cursor-pointer mt-3 text-right"
+            onClick={() => setIsExpanded(!isExpanded)}
+          >
+            {!isExpanded ? "Read More >" : "Show Less <"}
+          </div>
+        </div>
         <div className="flex justify-between items-center p-3">
           <div className="text-sm font-semibold text-gray-500">{date}</div>
           <Link href={instagram}>
@@ -33,15 +50,6 @@ const MediaEvent = ({
         <div className="aspect-square w-[300px] relative mb-2">
           <Image src={image} alt={name} fill objectFit="cover"></Image>
         </div>
-        {/* Instagram Logo */}
-        {/* <a
-          href={instagram}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-600 flex items-center"
-        >
-          <Instagram className="w-6 h-6" />
-        </a> */}
       </div>
     </div>
   );
