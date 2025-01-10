@@ -24,8 +24,8 @@ const NewTestimonial = ({
 }) => {
   const [firstName, lastName] = name.split(" ");
   return (
-    <div className="shift p-2 rounded-xl max-w-[300px] border-black border">
-      <div className="relative w-full aspect-[7/8] rounded-xl">
+    <div className="shift p-2 rounded-xl max-w-[300px] border-black border min-h-full">
+      <div className="relative w-full aspect-[7/8] rounded-xl image-container">
         <Image
           src={image}
           alt="testimonial"
@@ -33,7 +33,7 @@ const NewTestimonial = ({
           className="rounded-xl object-cover"
         ></Image>
         <div
-          className={`absolute bottom-2 left-4 text-white font-bold text-3xl uppercase ${bebas.className}`}
+          className={`absolute bottom-2 left-4 text-white font-bold text-3xl uppercase ${bebas.className} z-10`}
         >
           {firstName}
           <br></br>
