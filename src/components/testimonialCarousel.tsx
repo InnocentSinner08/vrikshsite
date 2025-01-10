@@ -38,6 +38,7 @@ const TestimonialCarousel = () => {
     <div className="bg-black bg-opacity-10 px-4 py-8 flex flex-col items-center justify-center gap-6">
       <div className="text-3xl font-bold text-center">TESTIMONIALS</div>
       <div className="flex justify-center items-start gap-5 flex-wrap">
+
         {data.map((info, idx) => {
           return (
             <NewTestimonial

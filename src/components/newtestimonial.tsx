@@ -33,7 +33,7 @@ const NewTestimonial = ({
           className="rounded-xl object-cover"
         ></Image>
         <div
-          className={`absolute bottom-2 left-4 text-white font-bold text-3xl uppercase ${bebas.className}`}
+          className={`absolute bottom-2 left-4 text-white font-bold text-3xl uppercase ${bebas.className} z-10`}
         >
           {firstName}
           <br></br>
