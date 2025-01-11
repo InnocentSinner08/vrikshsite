@@ -1,34 +1,9 @@
 export const events_14 = [
   {
-    name: "XYZ Event",
-    image: "/images/events/homepage-1.jpg",
+    image: "/images/events/2014/2014-2.png",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur quis facere quam rerum officiis dolore, quos, itaque vitae odit pariatur omnis atque. Voluptate, temporibus quia? Deleniti accusamus dignissimos hic?",
-    date: "12th Jan, 2025", // Add the date
+      'On 18 October 2014, VRIKSH BE THE CHANGE had organized a Parent-Student meeting at 3:30 pm in Manpur Patwatoli. The purpose of the meeting was to have a common platform where the VRIKSH team and parents could come together to enrich the educational experiences of the students and discuss various issues concerning the holistic development of the students. The meeting was conducted under the guidance of Chandrakant Pateshwari and Dugeshwar Prasad. <br/ ><br/> <b><i>"Coming together is a beginning; keeping together is progress; working together is success."<i/><b/> – Lao Tzu',
+    date: "18th October, 2014", // Add the date
     instagram: "https://www.instagram.com/your_page", // Add Instagram link
-  },
-  {
-    name: "XYZ Event",
-    image: "/images/events/homepage-1.jpg",
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur quis facere quam rerum officiis dolore, quos, itaque vitae odit pariatur omnis atque. Voluptate, temporibus quia? Deleniti accusamus dignissimos hic?",
-    date: "15th Feb, 2025",
-    instagram: "https://www.instagram.com/your_page",
-  },
-  {
-    name: "XYZ Event",
-    image: "/images/events/homepage-1.jpg",
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur quis facere quam rerum officiis dolore, quos, itaque vitae odit pariatur omnis atque. Voluptate, temporibus quia? Deleniti accusamus dignissimos hic?",
-    date: "20th Mar, 2025",
-    instagram: "https://www.instagram.com/your_page",
-  },
-  {
-    name: "XYZ Event",
-    image: "/images/events/homepage-1.jpg",
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur quis facere quam rerum officiis dolore, quos, itaque vitae odit pariatur omnis atque. Voluptate, temporibus quia? Deleniti accusamus dignissimos hic?",
-    date: "5th Apr, 2025",
-    instagram: "https://www.instagram.com/your_page",
   },
 ];
