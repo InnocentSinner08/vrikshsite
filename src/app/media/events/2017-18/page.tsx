@@ -14,7 +14,7 @@ const Page = () => {
               name={e.name}
               image={e.image}
               content={e.content}
-              quote={e.quote}
+              // quote={e.quote}
               date={e.date}
               instagram={e.instagram}
               key={idx}
