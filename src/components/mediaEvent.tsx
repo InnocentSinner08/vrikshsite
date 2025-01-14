@@ -8,12 +8,14 @@ const MediaEvent = ({
   name,
   image,
   content,
+  // quote,
   date,
   instagram,
 }: {
   name: string;
   image: string;
   content: string;
+  // quote: string;
   date: string;
   instagram: string;
 }) => {
@@ -27,7 +29,10 @@ const MediaEvent = ({
         <div className="font-bold text-lg">{name}</div>
         <div className="text-justify">
           {isExpanded ? (
-            <div dangerouslySetInnerHTML={{ __html: content }} />
+            <div>
+              <div dangerouslySetInnerHTML={{ __html: content }} />
+              {/* <div className="font-bold text-sm mt-4"> {quote} </div> */}
+            </div>
           ) : (<div> {trimmedContent} </div> 
 
           )}
