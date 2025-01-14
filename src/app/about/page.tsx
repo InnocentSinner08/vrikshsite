@@ -338,7 +338,8 @@ const Page = () => {
           </li>
         </ol>
         <p className="mt-4 text-justify max-w-4xl">
-          <h3 className="mt-3 mb-2 text-1xl font-bold  ">In conclusion</h3>
+          <b>In conclusion</b>
+          <br />
           Change in Patwatoli is not just needed—it is essential. Addressing
           these challenges will help build a community that is economically
           stable, socially inclusive, and capable of fulfilling its immense
