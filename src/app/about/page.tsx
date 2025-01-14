@@ -311,7 +311,7 @@ const Page = () => {
             <p className="mt-1 max-w-4xl text-justify">
               Investing in education and creating a support system for students
               will ensure the village continues to inspire the nation as a
-              "Village of IITians."
+              &quot;Village of IITians.&quot;
             </p>
           </li>
           <li className="mt-4 ">
@@ -367,12 +367,12 @@ const Page = () => {
           internet, books, digital classes and experienced mentors to create a
           supportive learning environment for all.
           <br />
-          To sustain this initiative, we have introduced a program called “One
-          Day One Rupee,” where each student donates one rupee per day from
-          their pocket money, fostering a sense of responsibility and
-          contribution among the learners.Apart from this, many people of our
-          society donate us to help the needy ones.This trust is not running by
-          single person but everyone has equal contribution in fostering a
+          To sustain this initiative, we have introduced a program called
+          &quot;One Day One Rupee,&quot; where each student donates one rupee
+          per day from their pocket money, fostering a sense of responsibility
+          and contribution among the learners.Apart from this, many people of
+          our society donate us to help the needy ones.This trust is not running
+          by single person but everyone has equal contribution in fostering a
           nurturing community.
         </p>
       </section>
