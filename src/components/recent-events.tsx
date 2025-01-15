@@ -30,15 +30,17 @@ const events = [
         imageUrl: "/images/events/Home Page Event - 4.jpg",
         content: "Celebrating the sparkle of Diwali with the guiding lights who brighten our path every day! Thank you, Sunil Sir, Kuldip Sir, and Yugesh Bhaiya, for your unwavering support, wisdom, and inspiration. Your teachings enlighten our minds and lift our spirits. As we revel in the joy and light of Diwali, we honor the knowledge and joy you bring into our lives. Here's to a festival as radiant as your guidance, fostering growth, unity, and a fresh outlook in our journey.",
     },
-    
 ];
 
 const MediaBody = () => {
-    const [openEventId, setOpenEventId] = useState(null);
+    const [openEventIds, setOpenEventIds] = useState<Record<number, boolean>>({});
 
-    const toggleDetails = (id:any) => {
-        // Toggle the visibility of event details
-        setOpenEventId(openEventId === id ? null : id);
+    const toggleDetails = (id: number) => {
+        // Toggle the visibility of the specific event details
+        setOpenEventIds((prevState) => ({
+            ...prevState,
+            [id]: !prevState[id],
+        }));
     };
 
     return (
@@ -64,7 +66,7 @@ const MediaBody = () => {
                         {/* Event Details */}
                         <div className="p-5 text-center">
                             <p className="text-sm text-gray-500 mb-1">
-                                {event.subtitle}
+                                {/* {event.subtitle} */}
                             </p>
                             <h2 className="text-2xl font-bold mb-4">{event.title}</h2>
 
@@ -73,11 +75,11 @@ const MediaBody = () => {
                                 onClick={() => toggleDetails(event.id)}
                                 className="inline-block text-sm font-medium border border-gray-900 py-2 px-5 hover:bg-gray-900 hover:text-white transition-all"
                             >
-                                {openEventId === event.id ? "HIDE DETAILS" : "READ MORE"}
+                                {openEventIds[event.id] ? "HIDE DETAILS" : "READ MORE"}
                             </button>
 
                             {/* Event Content (Dropdown) */}
-                            {openEventId === event.id && (
+                            {openEventIds[event.id] && (
                                 <div className="mt-4 text-left text-gray-700">
                                     <p>{event.content}</p>
                                 </div>

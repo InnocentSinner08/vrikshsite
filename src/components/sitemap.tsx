@@ -10,6 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { MapPin } from "react-feather";
 
 const Sitemap = () => {
   return (
@@ -54,8 +55,7 @@ const Sitemap = () => {
       </div>
       <div className="">
         <div className="text-[#F7E120]">CONTACT US:</div>
-        <div className="text-xs">Mobile Number: +91-7761981651</div>
-        <div className="text-xs">Phone Number: +91-9135209266</div>
+        <div className="text-xs">Mobile Number: +91-7761981651, +91-9135209266</div>
         <div className="text-xs">Email ID: info@vrikshbethechange.org</div>
         <div className="text-xs">
           Adress: Manpur Patwatoli Gaya,<br></br>Bihar, India, 823003
@@ -76,6 +76,12 @@ const Sitemap = () => {
           <Link href="https://www.linkedin.com/company/vrikshbethechange/">
             <Linkedin size={20} className="text-white" />
           </Link>
+          <Link
+                href="https://maps.app.goo.gl/EiuAkkdriMxUyYpm7" 
+                target="_blank"
+            >
+                <MapPin size={20} className="text-white" />
+            </Link>
         </div>
       </div>
       <div>
