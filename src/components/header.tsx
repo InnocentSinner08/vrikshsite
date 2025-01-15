@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="h-[30px] w-full flex">
+    <div className="h-[30px] w-full flex  relative z-50">
       <div className="bg-black h-full w-full flex px-3 justify-between items-center">
         <div className="flex gap-3">
           <Link href="https://www.instagram.com/vrikshbethechange">

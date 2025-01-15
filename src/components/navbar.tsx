@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,10 +25,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative w-full bg-white text-black">
+    <nav className="relative w-full bg-white text-black z-50">
       <div className="w-full h-[10vh] flex px-3 justify-between items-center">
         <div className="h-[80%] aspect-[88/79] relative">
-          <Image src="/images/homepage/vriksh-logo.png" alt="logo" fill={true} />
+          <Image
+            src="/images/homepage/vriksh-logo.png"
+            alt="logo"
+            fill={true}
+          />
         </div>
         <div className="hidden md:flex gap-6 justify-center items-center">
           {navLinks.map((link) => (

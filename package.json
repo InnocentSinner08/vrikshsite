@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.7.1",
     "lucide-react": "^0.464.0",
     "next": "14.2.7",
     "react": "^18",

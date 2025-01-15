@@ -13,7 +13,7 @@ import React from "react";
 
 const Sitemap = () => {
   return (
-    <div className="bg-black text-white flex p-4  mid:grid mid:grid-cols-2 gap-4 md:justify-evenly desktop:flex-row flex-col md:flex-wrap">
+    <div className="bg-black text-white flex p-4  mid:grid mid:grid-cols-2 gap-4 md:justify-evenly desktop:flex-row flex-col md:flex-wrap relative z-50">
       <div>
         <div className="text-[#F7E120]">ABOUT US</div>
         <div className="text-xs">Who We Are</div>

@@ -15,11 +15,12 @@ const Page = () => {
   const handleScroll = (ref: React.RefObject<HTMLDivElement>) => {
     if (ref.current) {
       const elementPosition = ref.current.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - NAVBAR_OFFSET;
-      
+      const offsetPosition =
+        elementPosition + window.pageYOffset - NAVBAR_OFFSET;
+
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
   };
@@ -88,8 +89,8 @@ const Page = () => {
         <p className="mt-4 text-center max-w-4xl">
           Patwatoli, a locality in the Gaya district of Bihar, is remarkable for
           two things: its skilled weavers and its consistent production of
-          IITians. Known as the &quot;Village of IITians,&quot; Patwatoli sees about
-          15-20 of its students clear the highly competitive JEE Advanced
+          IITians. Known as the &quot;Village of IITians,&quot; Patwatoli sees
+          about 15-20 of its students clear the highly competitive JEE Advanced
           examination every year. This unique achievement is even more
           impressive considering the challenges faced by the local community.
           The residents of Patwatoli are primarily hardworking weavers and
