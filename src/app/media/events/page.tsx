@@ -7,64 +7,64 @@ const Events = () => {
       <div className="font-bold text-center">Events</div>
       <div className="flex gap-4 items-center justify-center flex-wrap ">
         <Link
-          href="/media/events/2025"
+          href="/media/events/2025-26"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2025
+          2025-26
         </Link>
         <Link
-          href="/media/events/2024"
+          href="/media/events/2024-25"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2024
+          2024-25
         </Link>
         <Link
-          href="/media/events/2023"
+          href="/media/events/2023-24"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2023
+          2023-24
         </Link>
         <Link
-          href="/media/events/2022"
+          href="/media/events/2022-23"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2022
+          2022-23
         </Link>
         <Link
-          href="/media/events/2021"
+          href="/media/events/2021-22"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2021
+          2021-22
         </Link>
         <Link
-          href="/media/events/2020"
+          href="/media/events/2020-21"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2020
+          2020-21
         </Link>
         <Link
-          href="/media/events/2019"
+          href="/media/events/2019-20"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2019
+          2019-20
         </Link>
         <Link
-          href="/media/events/2018"
+          href="/media/events/2018-19"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2018
+          2018-19
         </Link>
         <Link
-          href="/media/events/2017"
+          href="/media/events/2017-18"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2017
+          2017-18
         </Link>
         <Link
-          href="/media/events/2016"
+          href="/media/events/2016-17"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"
         >
-          2016
+          2016-17
         </Link>
         <Link
           href="/media/events/2015"

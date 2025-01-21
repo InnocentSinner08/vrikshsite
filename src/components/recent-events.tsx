@@ -64,7 +64,7 @@ const MediaBody = () => {
                         {/* Event Details */}
                         <div className="p-5 text-center">
                             <p className="text-sm text-gray-500 mb-1">
-                                {event.subtitle}
+                                {/* {event.subtitle} */}
                             </p>
                             <h2 className="text-2xl font-bold mb-4">{event.title}</h2>
 

@@ -33,13 +33,13 @@ const partners = [
         description: `VRIKSH BE THE CHANGE would like to express deep gratitude to the State Bank of India (SBI) for their instrumental support in setting up Digital Class 2.0. We highly appreciate SBI's generous contribution in providing essential equipment such as a TV, Inverter, Battery, Projector, and Study tables.<br /><br />
         The CSR (Corporate Social Responsibility) Activity undertaken by SBI is truly commendable, and the VRIKSH TEAM extends special thanks to CGM (Chief General Manager) Shri Om Dikshit Ji and his SBI TEAM for their commitment to supporting VRIKSH BE THE CHANGE in the future.`,
       },
-      {
-        id: 5,
-        name: "Unique English School",
-        imageUrl: "/images/ourpartner/SBI logo.png",
-        description: `Unique English School is one of the close partners of VRIKSH BE THE CHANGE. This school is supporting a number of students of our trust by providing free and fair education.<br /><br />
-        The VRIKSH TEAM was invited to participate in the SOCIO-SCIENCE EXHIBITION held in 201 6 by the director of the school, Hitendra Sir. PRIZE DISTRIBUTION was organized by the VRIKSH TEAM to the students who made projects to support societal change under the guidance of teachers.`,
-      },
+    //   {
+    //     id: 5,
+    //     name: "Unique English School",
+    //     imageUrl: "/images/ourpartner/SBI logo.png",
+    //     description: `Unique English School is one of the close partners of VRIKSH BE THE CHANGE. This school is supporting a number of students of our trust by providing free and fair education.<br /><br />
+    //     The VRIKSH TEAM was invited to participate in the SOCIO-SCIENCE EXHIBITION held in 201 6 by the director of the school, Hitendra Sir. PRIZE DISTRIBUTION was organized by the VRIKSH TEAM to the students who made projects to support societal change under the guidance of teachers.`,
+    //   },
       {
         id: 6,
         name: "Concept N Solution",
