@@ -88,7 +88,7 @@ const Page = () => {
         <p className="mt-4 max-w-4xl text-justify">
           Patwatoli, a locality in the Gaya district of Bihar, is remarkable for
           two things: its skilled weavers and its consistent production of
-          IITians. Known as the &quot;Village of IITians,&quot; Patwatoli sees
+          IITians. Known as the &quot;Village of IITians&quot;, Patwatoli sees
           about 15-20 of its students clear the highly competitive JEE Advanced
           examination every year. This unique achievement is even more
           impressive considering the challenges faced by the local community.
@@ -98,12 +98,10 @@ const Page = () => {
           of determination and perseverance.
           <br />
           <br />
-          We, VRIKSH BE THE CHANGE, started our journey in 2013, founded by
-          Chandrakant Pateshwari along with some of his fellows in Manpur
-          Patwatoli, Gaya. An ordinary person driven by an extraordinary dream,
-          Chandrakant Pateshwari (CP) created VRIKSH BE THE CHANGE to ensure no
-          rural Indian is deprived of rights as basic as survival,
-          participation, protection, and development.
+          We ,VRIKSH BE THE CHANGE started our journey in 2013 , founded by Chandrakant Pateshwari along with some of his fellows in Manpur Patwatoli, Gaya.
+
+Chandrakant Pateshwari (CP), a common man who founded VRIKSH BE THE CHANGE in 2013 as Not For Profit Organisation and get registered as Trust under Indian Trusts Act 1882 in 2017. An ordinary person driven by an extraordinary dream.The dream that no rural Indian would be deprived of rights as basic as survival, participation, protection and development.CP and  four of his friends started VRIKSH BE THE CHANGE by contributing fixed amount on monthly basis, when one of his close friend left the school due to financial problem.As he put it "What I can do, I must do.” It works in the field of Education, Health Care, Community Development & Environment.
+
         </p>
       </section>
 
@@ -218,7 +216,7 @@ const Page = () => {
                 trapped in a cycle of poverty, unable to break free.
               </li>
             </ul>
-            <h3 className="mt-3 mb-2 text-1xl font-bold  ">why change?</h3>
+            <h3 className="mt-3 mb-2 text-1xl font-bold  ">Why change?</h3>
             <p className="mt-1 max-w-4xl text-justify">
               Economic upliftment through better wages, skill enhancement, and
               diversified livelihood opportunities is essential for improving
@@ -244,7 +242,7 @@ const Page = () => {
                 in exams like JEE.
               </li>
             </ul>
-            <h3 className="mt-3 mb-2 text-1xl font-bold  ">why change?</h3>
+            <h3 className="mt-3 mb-2 text-1xl font-bold  ">Why change?</h3>
             <p className="mt-1 max-w-4xl text-justify">
               Affordable and quality education can empower children to dream
               big, secure better opportunities, and uplift their families.
@@ -264,7 +262,7 @@ const Page = () => {
                 platforms or resources to contribute economically and socially.
               </li>
             </ul>
-            <h3 className="mt-3 mb-2 text-1xl font-bold  ">why change?</h3>
+            <h3 className="mt-3 mb-2 text-1xl font-bold  ">Why change?</h3>
             <p className="mt-1 max-w-4xl text-justify">
               Promoting gender equality ensures every individual can contribute
               their talent and potential, creating a more balanced and
@@ -285,7 +283,7 @@ const Page = () => {
                 makes families vulnerable to crises, like illness or job loss.
               </li>
             </ul>
-            <h3 className="mt-3 mb-2 text-1xl font-bold  ">why change?</h3>
+            <h3 className="mt-3 mb-2 text-1xl font-bold  ">Why change?</h3>
             <p className="mt-1 max-w-4xl text-justify">
               Creating opportunities for economic and social mobility will
               empower the next generation to explore diverse career paths and
@@ -307,11 +305,11 @@ const Page = () => {
                 coaching or lack guidance to excel in competitive exams.
               </li>
             </ul>
-            <h3 className="mt-3 mb-2 text-1xl font-bold  ">why change?</h3>
+            <h3 className="mt-3 mb-2 text-1xl font-bold  ">Why change?</h3>
             <p className="mt-1 max-w-4xl text-justify">
               Investing in education and creating a support system for students
               will ensure the village continues to inspire the nation as a
-              &quot;Village of IITians.&quot;
+              &quot;Village of IITians&quot;.
             </p>
           </li>
           <li className="mt-4 ">
@@ -329,7 +327,7 @@ const Page = () => {
                 social security.
               </li>
             </ul>
-            <h3 className="mt-3 mb-2 text-1xl font-bold  ">why change?</h3>
+            <h3 className="mt-3 mb-2 text-1xl font-bold  ">Why change?</h3>
             <p className="mt-1 max-w-4xl text-justify">
               A resilient and inclusive society where everyone has equal
               opportunities and access to resources ensures long-term
@@ -368,7 +366,7 @@ const Page = () => {
           supportive learning environment for all.
           <br />
           To sustain this initiative, we have introduced a program called
-          &quot;One Day One Rupee,&quot; where each student donates one rupee
+          &quot;One Day One Rupee&quot;, where each student donates one rupee
           per day from their pocket money, fostering a sense of responsibility
           and contribution among the learners.Apart from this, many people of
           our society donate us to help the needy ones.This trust is not running
@@ -382,7 +380,7 @@ const Page = () => {
         className="w-full min-h-[50vh] bg-white p-8 flex flex-col items-center"
       >
         <h2 className="text-2xl font-bold ">Why Trust Us?</h2>
-        <p className="mt-4 text-center max-w-4xl text-justify">
+        <p className="mt-4 max-w-4xl text-justify">
           We have demonstrated an unwavering commitment to provide quality
           education to our students.Our program not only supplies essential
           resources but also manages the coaching center, where online classes,
