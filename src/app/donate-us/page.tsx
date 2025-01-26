@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 const Page = () => {
   return (
     <>
-      <Swiper
+      {/* <Swiper
         loop={true}
         pagination={{
           clickable: true,
@@ -24,7 +24,7 @@ const Page = () => {
       >
         <SwiperSlide>
           <div className="w-full h-[calc(100vh-12vh)] relative">
-            <Image src="/hero.jpg" alt="hero" fill objectFit="cover"></Image>
+            <Image src="/images/aboutus/homepage-1.jpg" alt="hero" fill objectFit="cover"></Image>
             <div className="absolute bg-[#0000007a] w-full left-0 bottom-0 flex justify-center items-center text-md px-10 text-white text-center py-8">
               &quot;In the classrooms of VRIKSH PATHSHALA, knowledge grows not
               only in minds but also in the fertile soil of student&apos;s
@@ -44,14 +44,14 @@ const Page = () => {
             </div>
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
       <div className="w-full">
         <div className="bg-[#D9D9D9] font-semibold text-lg px-2 py-2 m-4 uppercase text-center">
           Donate to us and shape a child&apos;s future
         </div>
 
         <div className="flex flex-wrap w-full justify-evenly items-center p-2 pb-4 gap-6">
-          <div className="bg-[#D9D9D9] p-10 md:w-[40%] text-xs text-center">
+          <div className="bg-[#D9D9D9] p-10 md:w-[40%] text-xs text-justify">
             Attending school is about more than just learning. Our lives are
             largely shaped by our school memories, which lay the groundwork for
             a secure and happy childhood.<br></br>
@@ -70,7 +70,7 @@ const Page = () => {
             Education.
           </div>
           <div className="bg-[greenyellow] p-10 md:w-[40%] flex flex-col items-center">
-            <div className="font-bold text-lg">Donate Us</div>
+            <div className="font-bold text-lg">DONATE US</div>
             <div className="font-semibold p-4 text-center">
               Be a leaf of this Vriksh Family by donating us
             </div>

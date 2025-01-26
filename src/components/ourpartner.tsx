@@ -77,7 +77,7 @@ const Partners = () => {
                                 />
                             </div>
                         ) : (
-                            <div className="w-32 h-32 rounded-full bg-gray-300 overflow-hidden border border-[#30BD19]">
+                            <div className="w-32 h-32 rounded-full bg-gray-300 overflow-hidden ">
                                 <img
                                     src={partner.imageUrl}
                                     alt={partner.name}
