@@ -100,7 +100,7 @@ const Page = () => {
           <br />
           We ,VRIKSH BE THE CHANGE started our journey in 2013 , founded by Chandrakant Pateshwari along with some of his fellows in Manpur Patwatoli, Gaya.
 
-Chandrakant Pateshwari (CP), a common man who founded VRIKSH BE THE CHANGE in 2013 as Not For Profit Organisation and get registered as Trust under Indian Trusts Act 1882 in 2017. An ordinary person driven by an extraordinary dream.The dream that no rural Indian would be deprived of rights as basic as survival, participation, protection and development.CP and  four of his friends started VRIKSH BE THE CHANGE by contributing fixed amount on monthly basis, when one of his close friend left the school due to financial problem.As he put it "What I can do, I must do.” It works in the field of Education, Health Care, Community Development & Environment.
+Chandrakant Pateshwari (CP), a common man who founded VRIKSH BE THE CHANGE in 2013 as Not For Profit Organisation and get registered as Trust under Indian Trusts Act 1882 in 2017. An ordinary person driven by an extraordinary dream.The dream that no rural Indian would be deprived of rights as basic as survival, participation, protection and development.CP and  four of his friends started VRIKSH BE THE CHANGE by contributing fixed amount on monthly basis, when one of his close friend left the school due to financial problem.As he put it &quot;What I can do, I must do.&quot; It works in the field of Education, Health Care, Community Development & Environment.
 
         </p>
       </section>
