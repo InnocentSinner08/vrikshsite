@@ -3,7 +3,7 @@ import React from "react";
 
 const Events = () => {
   return (
-    <div className="flex flex-col p-4 gap-4 w-full">
+    <div className="flex flex-col p-4 gap-4 w-full ">
       <div className="font-bold text-center">Events</div>
       <div className="flex gap-4 items-center justify-center flex-wrap ">
         <Link

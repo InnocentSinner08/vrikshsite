@@ -8,15 +8,18 @@ import RecentEvents from "@/components/recent-events";
 import TestimonialSection from "@/components/testimonial";
 import NewTestimonial from "@/components/newtestimonial";
 import TestimonialCarousel from "@/components/testimonialCarousel";
+import Alumini from "@/components/alumini";
+import CoreTeam from "@/components/coreteam";
+
 
 export default function Home() {
   return (
     <main>
+      
       <Hero />
       <Founder />
       <Impact />
       <Videoslider />
-      {/* <TestimonialSection /> */}
       <TestimonialCarousel/>
       <RecentEvents />
       <Partners />
