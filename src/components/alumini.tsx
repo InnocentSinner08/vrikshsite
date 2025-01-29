@@ -1,50 +1,7 @@
 "use client";
 import { useState } from "react";
-
-const teamMembers = [
-  {
-    id: 1,
-    name: "Sahul Kumar",
-    designation: "Student",
-    imageUrl: "/images/team/puneet-bali.jpg",
-    bio: "Experienced leader with expertise in technology and management.",
-  },
-  {
-    id: 2,
-    name: "Rupam Kumar",
-    designation: "Student",
-    imageUrl: "/images/team/subroto-roy.jpg",
-    bio: "Focused on leveraging technology for impactful solutions.",
-  },
-  {
-    id: 3,
-    name: "Sujal Kumar",
-    designation: "Student",
-    imageUrl: "/images/team/rajesh-ss.jpg",
-    bio: "Expert in operational strategies and efficiency.",
-  },
-  {
-    id: 4,
-    name: "Amish Manjul",
-    designation: "Student",
-    imageUrl: "/images/team/john-flynn.jpg",
-    bio: "Strategic thinker and advisor to the board.",
-  },
-  {
-    id: 5,
-    name: "Sheetal Raj",
-    designation: "Student",
-    imageUrl: "/images/team/rashmi-jain.jpg",
-    bio: "Specialized in branding and digital marketing.",
-  },
-  {
-    id: 6,
-    name: "Rohit Kumar",
-    designation: "Student",
-    imageUrl: "/images/team/sushanta-bhuyan.jpg",
-    bio: "Ensures financial stability and growth for the organization.",
-  },
-];
+import { alumni } from "@/app/ourteam/alumni_all";
+import { FaLinkedin } from "react-icons/fa";
 
 const Alumini = () => {
   const [expandedId, setExpandedId] = useState<number | null>(null);
@@ -61,7 +18,7 @@ const Alumini = () => {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {teamMembers.map((member) => (
+        {alumni.map((member) => (
           <div
             key={member.id}
             className="bg-white rounded-lg shadow-lg p-4 border-2 border-gray-200 hover:shadow-xl transition-shadow"
@@ -80,6 +37,13 @@ const Alumini = () => {
               {member.name}
             </h2>
             <p className="text-sm text-gray-500 text-center">{member.designation}</p>
+            {member.linkedin && (
+                  <div className="mt-2 flex justify-center">
+                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                      <FaLinkedin className="text-blue-600 text-xl hover:text-blue-800 transition-colors" />
+                    </a>
+                  </div>
+            )}
 
             {/* Expand Button */}
             <div className="mt-4 flex justify-center">
@@ -95,6 +59,7 @@ const Alumini = () => {
             {expandedId === member.id && (
               <div className="mt-4 text-gray-700 text-sm text-center border-t pt-3">
                 {member.bio}
+                
               </div>
             )}
           </div>
