@@ -1,5 +1,8 @@
 "use client";
 
+import Link from "next/link";
+import { AtSign } from "react-feather";
+
 const executiveTeam = [
     {
         id: 1,
@@ -7,7 +10,7 @@ const executiveTeam = [
         role: "Founder and Secretary",
         phone: "+48 30 40 95 13",
         email: "joan@supply.co",
-        imageUrl: "/images/team/john-anderson.jpg",
+        imageUrl: "/images/team/cp bhaiya.png",
     },
     {
         id: 2,
@@ -131,8 +134,8 @@ const CoreTeam = () => {
                         </div>
                         <h3 className="font-semibold mt-3">{member.name}</h3>
                         <p className="text-sm text-gray-500">{member.role}</p>
-                        <p className="text-sm text-gray-500">{member.phone}</p>
-                        <p className="text-sm text-blue-500">{member.email}</p>
+                        {/* <p className="text-sm text-gray-500">{member.phone}</p> */}
+                        <Link href={`mailto:${member.email}`} className="text-sm text-blue-500 flex items-center justify-center"><AtSign size={20}></AtSign></Link>
 
                     </div>
                 ))}
@@ -152,8 +155,8 @@ const CoreTeam = () => {
                         />
                         <h3 className="font-semibold mt-3">{member.name}</h3>
                         <p className="text-sm text-gray-500">{member.role}</p>
-                        <p className="text-sm text-gray-500">{member.phone}</p>
-                        <p className="text-sm text-blue-500">{member.email}</p>
+                        {/* <p className="text-sm text-gray-500">{member.phone}</p> */}
+                        <Link href={`mailto:${member.email}`} className="text-sm text-blue-500 flex items-center justify-center"><AtSign size={18}></AtSign></Link>
                     </div>
                 ))}
             </div>
