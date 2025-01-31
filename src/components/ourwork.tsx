@@ -134,7 +134,10 @@ export default function Ourwork() {
                         <div className="w-full md:w-1/2 text-center md:text-left">
                             <h3 className="text-2xl font-semibold">{part.name}</h3>
                             <p className="text-gray-600 mt-2">{part.desc.length > 200 ? part.desc.substring(0, 200) + "..." : part.desc}</p>
-                            <p className="italic text-gray-500 mt-2">&quot;{part.quote}&quot;</p> {/* Quote in italics and inverted commas */}
+
+                            
+                            <p className="italic text-gray-500 mt-2">&ldquo;{part.quote}&rdquo;</p>
+
                             <button
                                 onClick={() => setSelectedPart(part)}
                                 className="mt-2 text-green hover:underline"
@@ -151,7 +154,11 @@ export default function Ourwork() {
                         <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full">
                             <h3 className="text-2xl font-semibold mb-4">{selectedPart.name}</h3>
                             <p className="text-gray-700">{selectedPart.desc}</p>
-                            <p className="italic text-gray-500 mt-4">&quot;{selectedPart.quote}&quot;</p> {/* Quote in italics and inverted commas */}
+
+                           
+                            <p className="italic text-gray-500 mt-4">&ldquo;{selectedPart.quote}&rdquo;</p>
+                            {/* Quote in italics and inverted commas */}
+
                             <button
                                 onClick={() => setSelectedPart(null)}
                                 className="mt-4 px-4 py-2 bg-green text-white rounded-lg"
