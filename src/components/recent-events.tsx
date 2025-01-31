@@ -77,7 +77,7 @@ const MediaBody = () => {
                                 className={`overflow-hidden transition-all duration-500 ease-in-out ${openEventId === event.id ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
                                     }`}
                             >
-                                <p className="mt-4 text-left text-gray-700">{event.content}</p>
+                                <p className="mt-4 text-left text-gray-700 items-center text-justify">{event.content}</p>
                             </div>
                         </div>
                     </div>
