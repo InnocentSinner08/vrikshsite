@@ -1,7 +1,8 @@
 "use client";
 import { useRef } from "react";
 import Image from "next/image";
-
+import { Bebas_Neue } from "next/font/google";
+const bebas = Bebas_Neue({ subsets: ["latin"], weight: "400" });
 const Page = () => {
   const NAVBAR_OFFSET = 60;
   const ourStoryRef = useRef<HTMLDivElement>(null);
@@ -26,9 +27,13 @@ const Page = () => {
   return (
     <main className="flex flex-col items-center">
       {/* Hero Section */}
-      <div className="relative w-full h-[100vh]">
+      <div className="relative w-full h-[86vh]">
+        <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-50 flex justify-center items-center">
+          <span className= {`relative z-{51} text-white text-6xl font-bold uppercase ${bebas.className}`}>Together for Endless Smiles</span>
+        </div>
+
         <Image
-          src="/images/aboutus/homepage-1.jpg"
+          src="/images/aboutus/aboutimg.jpg"
           alt="Hero"
           fill
           objectFit="cover"
@@ -120,7 +125,7 @@ const Page = () => {
       </section>
       <section
         ref={whyChangeNeededRef}
-        className="w-full min-h-[50vh] bg-gray-100 p-8 flex flex-col items-center"
+        className="w-full min-h-[50vh] bg-white p-8 flex flex-col items-center"
       >
         <h2 className="text-2xl font-bold text-center">Why Change Needed?</h2>
         <p className="mt-4 text-justify max-w-4xl">
@@ -160,7 +165,7 @@ const Page = () => {
 
       <section
         ref={howWeWorkRef}
-        className="w-full min-h-[50vh] bg-white p-8 flex flex-col items-center"
+        className="w-full min-h-[50vh] bg-gray-100 p-8 flex flex-col items-center"
       >
         <h2 className="text-2xl font-bold text-center">How We Work?</h2>
         <p className="mt-4 text-justify max-w-4xl">
