@@ -1,10 +1,8 @@
-import Vrikhs from "@/components/vriksh";
-import UnderConstruction from "@/components/workinprogress";
+import Ourwork from "@/components/ourwork";
 export default function OurWork() {
     return (
         <main>
-            {/* <Vrikhs/> */}
-            <UnderConstruction/>
+            <Ourwork/>
         </main>
     );
 }

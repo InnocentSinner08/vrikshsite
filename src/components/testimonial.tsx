@@ -59,7 +59,7 @@ const TestimonialSection = () => {
       content:
         "Hello everyone! I am Kashish Kumari, a member of VRIKSH BE THE CHANGE. VRIKSH is providing a great opportunity to poor children by giving them free and fair education to study forward.",
       extraContent:
-        "When I was about 8 years old, my father passed away. I was helpless, at that time VRIKSH raised a hand to support me emotionally and financially also. With me, it also helped my siblings. Today, I became a JEE Aspirant only because of their help and support. I am preparing for IIT-JEE from here not only during the day but also at night also. VRIKSH is aiming to support many children like me who are financially weak but want to achieve their dreams.",
+        "Hello everyone! I am Kashish Kumari, a member of VRIKSH BE THE CHANGE. VRIKSH is providing a great opportunity for underprivileged children by offering them free and fair education to help them pursue their studies.When I was about 8 years old, my father passed away. I was helpless, but at that time, VRIKSH extended a hand to support me both emotionally and financially. Along with me, it also helped my siblings.Today, I am a JEE aspirant only because of their help and support. I am preparing for IIT-JEE here, not only during the day but also at night. VRIKSH aims to support many children like me who are financially weak but have big dreams to achieve.",
       link: "#",
     },
     {

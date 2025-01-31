@@ -9,28 +9,28 @@ const TestimonialCarousel = () => {
       name: "Kashish Kumari",
       text: " Hello everyone! I am Kashish Kumari, a member of VRIKSH BE THE CHANGE. VRIKSH is providing a great opportunity to poor children by giving them free and fair education to study forward. When I was about 8 years old, my father passed away.",
       expandedText:
-        "I was helpless, at that time VRIKSH raised a hand to support me emotionally and financially also. With me, it also helped my siblings. Today, I became a JEE Aspirant only because of their help and support. I am preparing for IIT-JEE from here not only during the day but also at night also. VRIKSH is aiming to support many children like me who are financially weak but want to achieve their dreams.",
+        "I was helpless, but at that time, VRIKSH extended a hand to support me both emotionally and financially. Along with me, they also helped my siblings. Today, I am a JEE aspirant only because of their help and support. I am preparing for IIT-JEE here, not only during the day but also at night. VRIKSH aims to support many children like me who are financially weak but have big dreams to achieve.",
       image: "/images/homepage/kashish kumari.jpg",
     },
     {
       name: "Suraj Kumar",
-      text: "Hello everyone! I am Suraj Kumar, a member of VRIKSH BE THE CHANGE. VRIKSH has provided me with financial and moral support in achieving my goals. It was a great experience of volunteering here in different activities.",
+      text: "Hello everyone! I am Suraj Kumar, a member of VRIKSH BE THE CHANGE. VRIKSH has provided me with both financial and moral support in achieving my goals. Volunteering here in various activities has been a great experience.",
       expandedText:
-        " I have learnt a lot of new things at every point during that time. Also I have learnt Live Living Lessons from CP Bhaiya which helps in enhancing my career. Now I am studying at IIEST Shibpur.",
+        "I have learned many new things at every step of my journey. Additionally, I have gained valuable Life-Living Lessons from CP Bhaiya, which have helped enhance my career. Now, I am studying at IIEST Shibpur.",
       image: "/images/homepage/suraj kumar.jpg",
     },
     {
       name: "Kareena Kumari",
-      text: "I am Kareena, and Vriksh has been a guiding light in my life—more than just a mentor, they have been like family to me. They have supported and guided me through my studies and challenges, especially during my JEE preparations, which paved the way for my current journey.",
+      text: "I am Kareena, and Vriksh has been a guiding light in my life—more than just a mentor, it has been like family to me. Vriksh has supported and guided me through my studies and challenges, especially during my JEE preparations, which paved the way for my current journey.",
       expandedText:
-        "With Vriksh’s constant help and support, I am now studying B.Tech in Metallurgical Engineering at one of the best institutes in India, IIT BHU. Being in my pre-final year of B.Tech, I still find Vriksh by my side whenever I face any issue. I have been a part of the Vriksh family for a long time, and I feel truly lucky to have met such wonderful and kind-hearted people in my life. Vriksh has supported me not only financially but also emotionally and morally, giving me the strength to overcome my challenges. I sincerely thank The Vriksh Be The Change for being a constant source of support and positivity in my life. Their care and guidance have been life-changing, and I will forever be grateful for everything they have done for me.",
+        "With Vriksh’s constant help and support, I am now pursuing a B.Tech in Metallurgical Engineering at one of India’s top institutes, IIT BHU. As a pre-final year student, I still find Vriksh by my side whenever I face any challenges. Being a part of the Vriksh family for so long, I feel truly fortunate to have met such wonderful and kind-hearted people. Vriksh has supported me not only financially but also emotionally and morally, giving me the strength to overcome obstacles. I sincerely thank Vriksh Be The Change for being a constant source of support and positivity in my life. Their care and guidance have been life-changing, and I will forever be grateful for everything they have done for me.",
       image: "/images/homepage/kareena.jpg",
     },
     {
       name: "Ankush Kumar",
-      text: " I am Ankush Kumar currently studying in IIT BOMBAY (B.Tech, First Year, Branch-MEMS). I belong to a poor family. When I decided to crack the IIT JEE Examination, I had no money for preparation for JEE.",
+      text: "I am Ankush Kumar, currently studying at IIT Bombay (B.Tech, First Year, MEMS). I come from a financially weak background. When I decided to crack the IIT JEE examination, I had no money for JEE preparation.",
       expandedText:
-        "Then VRIKSH BE THE CHANGE came forward to support me and provide me free coaching for JEE and also provide regular guidance about HOW TO PREPARE FOR JEE ? and WHAT TO DO FOR THIS? Finally I got selected in the JEE ADVANCED Examination. I am very thankful to VRIKSH BE THE CHANGE. ",
+        "That’s when VRIKSH BE THE CHANGE stepped forward to support me by providing free coaching for JEE and regular guidance on how to prepare for JEE and what steps to take. With their constant support, I successfully cleared the JEE Advanced examination. I am deeply grateful to VRIKSH BE THE CHANGE for their invaluable help and guidance.",
       image: "/images/homepage/ankush kumar.jpg",
     },
   ];

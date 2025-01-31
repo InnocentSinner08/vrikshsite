@@ -48,8 +48,6 @@ const Hero = () => {
           <div className="absolute bg-[#0000007a] w-full left-0 bottom-0 flex flex-col justify-center items-center text-md px-10 text-white text-center py-8">
           <span className="font-semibold italic"> &quot;United by the spirit of change and learning!&quot;</span>
             A proud moment with our dedicated team and young learners under the shade of knowledge and growth at Bodhgaya Math. Together, we nurture dreams and build a brighter future.
-
-          
           </div>
         </div>
       </SwiperSlide>

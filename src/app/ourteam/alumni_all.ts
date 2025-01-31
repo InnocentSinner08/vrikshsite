@@ -1,4 +1,3 @@
-import { Linkedin } from "react-feather";
 
 export const alumni = [
       {
@@ -633,7 +632,7 @@ export const alumni = [
       },
       {
         id: 83,
-        name: "Rohini Kumar",
+        name: "Rohini Kumari",
         designation: "Joined in 2022",
         imageUrl: "/images/team/alumni/Rohni_Kumari.jpg",
         bio: "Currently pursuing B.Tech in Computer Science at Netaji Subhash Engineering College ",

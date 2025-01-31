@@ -6,12 +6,10 @@ import "swiper/css";
 
 const OurPartners = () => {
     const partners = [
-        // { name: "Jeevika", src: "/images/homepage/jeevika logo.png" },
         { name: "Neet Jee", src: "/images/homepage/NeetJee_logo.png" },
         { name: "NSS", src: "/images/homepage/NSS Logo.png" },
         { name: "SBI", src: "/images/homepage/SBI logo.png" },
-        {name : "ConceptNSolution", src: "/images/homepage/ConceptNSolution .jpg"}
-    
+        { name: "ConceptNSolution", src: "/images/homepage/ConceptNSolution .jpg" }
     ];
 
     return (
@@ -21,17 +19,20 @@ const OurPartners = () => {
             </h2>
             <div className="w-full overflow-hidden">
                 <Swiper
-                    slidesPerView={5} // Adjust number of visible slides
-                    spaceBetween={30}
                     loop={true}
                     autoplay={{
-                        delay: 0, // No delay for smooth scrolling
+                        delay: 0,
                         disableOnInteraction: false,
                         pauseOnMouseEnter: false,
                     }}
-                    speed={4000} // Adjust speed for scrolling
+                    speed={4000}
                     modules={[Autoplay]}
                     className="mySwiper"
+                    breakpoints={{
+                        320: { slidesPerView: 2, spaceBetween: 10 }, // Small screens
+                        640: { slidesPerView: 3, spaceBetween: 20 }, // Tablets
+                        1024: { slidesPerView: 4, spaceBetween: 30 }, // Large screens
+                    }}
                 >
                     {partners.map((partner, index) => (
                         <SwiperSlide key={index} className="flex justify-center items-center">
@@ -45,7 +46,6 @@ const OurPartners = () => {
                             </div>
                         </SwiperSlide>
                     ))}
-                    {/* Duplicate slides for seamless scrolling */}
                     {partners.map((partner, index) => (
                         <SwiperSlide key={`duplicate-${index}`} className="flex justify-center items-center">
                             <div className="h-24 w-40 relative">
