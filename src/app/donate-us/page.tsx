@@ -1,7 +1,4 @@
 "use client";
-import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -33,18 +30,21 @@ const Page = () => {
             escape the cycle of misery, ignorance, and poverty. Donate for
             Education.
           </div>
-          <div className="bg-[#A2C579] p-10 shadow-lg rounded-lg md:w-[40%] flex flex-col text-black  items-center">
-            <div className="font-bold text-lg">DONATE US</div>
-            <div className="font-semibold p-4 text-center">
+          <div
+            className="p-10 shadow-lg rounded-lg md:w-[40%] flex flex-col text-black items-center bg-cover bg-center"
+            style={{ backgroundImage: "url('/bg.jpg')" }}
+          >
+            <div className="font-bold text-md ">DONATE US</div>
+            <div className="font-semibold p-2 text-center">
               Be a leaf of this Vriksh Family by donating us
             </div>
             <button className="bg-[#D2B48C] rounded-lg font-semibold px-6 py-2 bg-[#D9D9D9]">
               Donate Now
             </button>
-            <div className="bg-[#A2C579] font-semibold px-6 py-2  text-black m-2 mt-4 text-center">
+            <div className="bg-[#A2C579] font-semibold px-6 py-2 text-black m-2 mt-4 text-center">
               Your Contributions Will Never Go To Waste
             </div>
-            <div className="text-md font-semibold text-center mt-6">
+            <div className="text-md font-semibold text-center mt-6 ">
               Thanks for donating!!!
             </div>
           </div>

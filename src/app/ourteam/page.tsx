@@ -4,7 +4,8 @@ export default function OurTeam() {
   return (
     <main>
      <CoreTeam/>
-     <Alumini/>
+     <section id= "alumni-section"> <Alumini/></section>
+     
     </main>
   );
 }

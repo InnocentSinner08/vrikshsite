@@ -6,7 +6,7 @@ import "swiper/css";
 
 const OurPartners = () => {
     const partners = [
-        { name: "Neet Jee", src: "/images/homepage/NeetJee Logo.png" },
+        { name: "Neet Jee", src: "/images/homepage/NeetJee_logo.png" },
         { name: "NSS", src: "/images/homepage/NSS Logo.png" },
         { name: "SBI", src: "/images/homepage/SBI logo.png" },
         { name: "ConceptNSolution", src: "/images/homepage/ConceptNSolution .jpg" }

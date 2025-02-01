@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md z-50">
+        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md z-[100]">
           <div className="flex flex-col items-center py-4 space-y-4">
             {navLinks.map((link) => (
               <Link
