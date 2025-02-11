@@ -8,7 +8,7 @@ const OurPartners = () => {
     const partners = [
         { name: "Neet Jee", src: "/images/homepage/NeetJee_logo.png" },
         { name: "NSS", src: "/images/homepage/NSS Logo.png" },
-        { name: "SBI", src: "/images/homepage/SBI logo.png" },
+        // { name: "SBI", src: "/images/homepage/SBI logo.png" },
         { name: "ConceptNSolution", src: "/images/homepage/ConceptNSolution .jpg" }
     ];
 
@@ -31,7 +31,7 @@ const OurPartners = () => {
                     breakpoints={{
                         320: { slidesPerView: 2, spaceBetween: 10 }, // Small screens
                         640: { slidesPerView: 3, spaceBetween: 20 }, // Tablets
-                        1024: { slidesPerView: 4, spaceBetween: 30 }, // Large screens
+                        1024: { slidesPerView: 3, spaceBetween: 30 }, // Large screens
                     }}
                 >
                     {partners.map((partner, index) => (

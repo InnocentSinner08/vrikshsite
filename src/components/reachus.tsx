@@ -11,11 +11,13 @@ const ReachUsBody = () => {
                 <div>
                     <div className="bg-white p-4 rounded shadow mb-6">
                         <h3 className="font-bold text-lg mb-2">For all general Queries</h3>
-                        <p className="italic text-gray-600">email</p>
+                        <p className="italic text-gray-600">Email : info@vrikshbethechange.org</p>
                     </div>
                     <div className="bg-white p-4 rounded shadow">
                         <h3 className="font-bold text-lg mb-2">Visit Us Here</h3>
-                        <p className="italic text-gray-600">address:</p>
+                        <p className="italic text-gray-600">Address: Manpur Patwatoli Gaya,
+                            Bihar, India, 823003
+                        </p>
                     </div>
                 </div>
 
@@ -29,7 +31,7 @@ const ReachUsBody = () => {
                         <input
                             type="hidden"
                             name="access_key"
-                            value="dca4d71f-b045-48d6-814f-a9ca5d631779"
+                            value="c5a33988-58dd-461e-a9c0-61b07a71c8a8"
                         />
 
                         {/* Name */}

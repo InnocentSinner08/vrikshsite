@@ -4,8 +4,8 @@ import React from "react";
 const Events = () => {
   return (
     <div className="flex flex-col p-4 gap-4 w-full ">
-      <div className="font-bold text-center">Events</div>
-      <div className="flex gap-4 items-center justify-center flex-wrap ">
+      <div className="text-2xl py-4 font-bold text-center">Events</div>
+      <div className="flex gap-10 items-center justify-center flex-wrap ">
         <Link
           href="/media/events/2025-26"
           className="bg-[#D9D9D9] px-4 py-3 text-center min-w-[300px]"

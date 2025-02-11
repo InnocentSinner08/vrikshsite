@@ -97,7 +97,7 @@ const Page = () => {
         ref={visionRef}
         className="w-full min-h-[50vh] bg-gray-100 p-8 flex flex-col items-center"
       >
-        <h2 className="text-2xl font-bold text-center">Vision</h2>
+        <h2 className="text-2xl font-bold text-center">Vision and Mission</h2>
         <p className="mt-4 max-w-4xl text-justify">
         </p>
         <ol className="list-decimal ">

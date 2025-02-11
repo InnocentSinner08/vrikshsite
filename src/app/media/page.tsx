@@ -20,7 +20,7 @@ const Media = () => {
           Past Events
         </Link>
         <Link
-          href="/blogs"
+          href="#"
           className="bg-[#D9D9D9] px-4 py-3 text-center font-semibold rounded-sm"
         >
           Blogs

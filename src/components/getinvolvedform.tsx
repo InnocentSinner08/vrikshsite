@@ -11,7 +11,7 @@ const HelpdeskForm = () => {
         </p>
         
         <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-          <input type="hidden" name="access_key" value="dca4d71f-b045-48d6-814f-a9ca5d631779" />
+          <input type="hidden" name="access_key" value="c5a33988-58dd-461e-a9c0-61b07a71c8a8" />
 
           {/* Name */}
           <div>

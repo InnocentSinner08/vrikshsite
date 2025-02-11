@@ -26,13 +26,13 @@ const partners = [
         VRIKSH BE THE CHANGE would like to thank the NSS and IIT Bombay for doing an outstanding job of empowering students in their academic journey. Through live doubt classes, tutoring, and mentoring, they strive to make education accessible and inspiring.<br /><br />
         Special thanks to VRIKSH's alumni who constantly work for these and schedule proper classes.`,
       },
-      {
-        id: 4,
-        name: "SBI",
-        imageUrl: "/images/ourpartner/SBI logo.png",
-        description: `VRIKSH BE THE CHANGE would like to express deep gratitude to the State Bank of India (SBI) for their instrumental support in setting up Digital Class 2.0. We highly appreciate SBI's generous contribution in providing essential equipment such as a TV, Inverter, Battery, Projector, and Study tables.<br /><br />
-        The CSR (Corporate Social Responsibility) Activity undertaken by SBI is truly commendable, and the VRIKSH TEAM extends special thanks to CGM (Chief General Manager) Shri Om Dikshit Ji and his SBI TEAM for their commitment to supporting VRIKSH BE THE CHANGE in the future.`,
-      },
+    //   {
+    //     id: 4,
+    //     name: "SBI",
+    //     imageUrl: "/images/ourpartner/SBI logo.png",
+    //     description: `VRIKSH BE THE CHANGE would like to express deep gratitude to the State Bank of India (SBI) for their instrumental support in setting up Digital Class 2.0. We highly appreciate SBI's generous contribution in providing essential equipment such as a TV, Inverter, Battery, Projector, and Study tables.<br /><br />
+    //     The CSR (Corporate Social Responsibility) Activity undertaken by SBI is truly commendable, and the VRIKSH TEAM extends special thanks to CGM (Chief General Manager) Shri Om Dikshit Ji and his SBI TEAM for their commitment to supporting VRIKSH BE THE CHANGE in the future.`,
+    //   },
     //   {
     //     id: 5,
     //     name: "Unique English School",

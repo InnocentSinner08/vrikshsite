@@ -33,7 +33,7 @@ const MediaEvent = ({
               <div dangerouslySetInnerHTML={{ __html: content }} />
               {/* <div className="font-bold text-sm mt-4"> {quote} </div> */}
             </div>
-          ) : (<div> {trimmedContent} </div> 
+          ) : (<div dangerouslySetInnerHTML={{ __html: trimmedContent }} /> 
 
           )}
           <div

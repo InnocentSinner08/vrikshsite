@@ -2,6 +2,7 @@
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Link from "next/link";
 
 const Page = () => {
   return (
@@ -39,7 +40,9 @@ const Page = () => {
               Be a leaf of this Vriksh Family by donating us
             </div>
             <button className="bg-[#D2B48C] rounded-lg font-semibold px-6 py-2 bg-[#D9D9D9]">
+              <Link href= "/qr-code">
               Donate Now
+              </Link>
             </button>
             <div className="bg-[#A2C579] font-semibold px-6 py-2 text-black m-2 mt-4 text-center">
               Your Contributions Will Never Go To Waste
