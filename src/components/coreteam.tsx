@@ -105,33 +105,33 @@ const vrikshfederation = [
     },
 ];
 const vrikshpathshala = [
-    {
-        id: 1,
-        name: "Sachin Kumar",
-        role: "President",
-        phone: "+48 30 40 95 81",
-        email: "olma@supply.co",
-        imageUrl: "/images/team/alumni/Sachin_Kumar.jpg",
-        linkedin: "https://www.linkedin.com/in/sachin-kumar-a889a9292"
-    },
-    {
-        id: 2,
-        name: "Amit Kumar",
-        role: "Seceratary",
-        phone: "+48 30 40 95 90",
-        email: "grha@supply.co",
-        imageUrl: "/images/team/coreteam/dugeshwar_prasad.jpeg",
-        // linkedin: "https://www.linkedin.com/in/madhu-kumari-5a5a36293/"
-    },
-    {
-        id: 3,
-        name: "Meghnath Kumar",
-        role: "Seceratary",
-        phone: "+48 30 40 95 90",
-        email: "grha@supply.co",
-        imageUrl: "/images/team/alumni/Meghnath_Kumar.jpg",
-        // linkedin: "https://www.linkedin.com/in/madhu-kumari-5a5a36293/"
-    },
+  {
+    id: 1,
+    name: "Sachin Kumar",
+    role: "President",
+    phone: "+48 30 40 95 81",
+    email: "olma@supply.co",
+    imageUrl: "/images/team/alumni/Sachin_Kumar.jpg",
+    linkedin: "https://www.linkedin.com/in/sachin-kumar-a889a9292",
+  },
+  {
+    id: 2,
+    name: "Amit Kumar",
+    role: "Seceratary",
+    phone: "+48 30 40 95 90",
+    email: "grha@supply.co",
+    imageUrl: "/images/team/alumni/Amit_Kumar3.jpg",
+    // linkedin: "https://www.linkedin.com/in/madhu-kumari-5a5a36293/"
+  },
+  {
+    id: 3,
+    name: "Meghnath Kumar",
+    role: "Seceratary",
+    phone: "+48 30 40 95 90",
+    email: "grha@supply.co",
+    imageUrl: "/images/team/alumni/Meghnath_Kumar.jpg",
+    linkedin: "https://www.linkedin.com/in/meghnath-kumar-072b53292"
+  },
 ];
 const studentactivitycentre = [
     {
