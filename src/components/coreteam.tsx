@@ -120,7 +120,7 @@ const vrikshpathshala = [
         role: "Seceratary",
         phone: "+48 30 40 95 90",
         email: "grha@supply.co",
-        imageUrl: "/images/team/coreteam/dugeshwar_prasad.jpeg",
+        imageUrl: "/images/team/alumni/Amit_Kumar3.jpg",
         // linkedin: "https://www.linkedin.com/in/madhu-kumari-5a5a36293/"
     },
     {
