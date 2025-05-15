@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "static": "next build && next export"
   },
   "dependencies": {
     "lucide-react": "^0.464.0",
