@@ -54,7 +54,7 @@ const Events = () => {
       {/* Quote */}
       <div className="mt-16 max-w-2xl mx-auto bg-white shadow-lg rounded-lg p-6 text-center">
         <blockquote className="italic text-gray-700">
-          "At Vriksh, every small event becomes a big step toward transformation."
+          &ldquo;At Vriksh, every small event becomes a big step toward transformation.&rdquo;
         </blockquote>
         <p className="mt-2 font-semibold text-green-700"></p>
       </div>
